@@ -1,12 +1,12 @@
 import { BrowserRouter } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import NavigationBarComponent from './components/NavigationBarComponent';
 
 const App = () => {
   return (
     <BrowserRouter>
       <div className="relative z-0">
         <div>
-          <Navbar />
+          <NavigationBarComponent />
           {/* <Hero /> */}
         </div>
 
