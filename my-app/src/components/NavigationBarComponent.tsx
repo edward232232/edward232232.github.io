@@ -7,7 +7,7 @@ import logo from '../assets/logo/logoMe.jpeg';
 
 const NavigationBarComponent = () => {
   const [active, setActive] = useState('');
-  const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(false);//
 
   return (
     <nav
