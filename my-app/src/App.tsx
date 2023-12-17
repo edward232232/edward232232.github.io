@@ -1,5 +1,6 @@
 import { BrowserRouter } from 'react-router-dom';
 import NavigationBarComponent from './components/NavigationBarComponent';
+import Profile from './components/Hero';
 
 const App = () => {
   return (
@@ -7,7 +8,7 @@ const App = () => {
       <div className="relative z-0">
         <div>
           <NavigationBarComponent />
-          {/* <Hero /> */}
+          <Profile /> 
         </div>
 
         <div className="bg-center bg-no-repeat bg-cover bg-about">

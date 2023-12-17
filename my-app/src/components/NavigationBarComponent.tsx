@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { close, menu, logotext } from '../assets';
-import logo from '../assets/logo/logoMe.jpeg';
+import { close, menu } from '../assets';
+import logo from '../assets/logo/cartoon_me.jpeg';
 
 const NavigationBarComponent = () => {
   const [active, setActive] = useState('');
@@ -12,7 +12,7 @@ const NavigationBarComponent = () => {
   return (
     <nav
       className={`${styles.paddingX} w-full flex-col items-center py-2 fixed 
-      top-0 z-20 bg-white sm:opacity-[0.97] xxs:h-[12vh] justify-center`}>
+      top-0 z-20 bg-custom-blue xxs:h-[12vh] justify-center`}>
 
   <ul className="flex-row justify-center hidden mt-2 list-none sm:flex gap-14">
     {navLinks.map((nav) => (
@@ -43,14 +43,6 @@ const NavigationBarComponent = () => {
           />
           <span className ="text-eerieBlack hover:text-taupe text-[21px] font-medium font-mova 
           uppercase tracking-[3px] ">Eddie Kong</span>
-
-          {/* if you have text you want besides your logo it comes here.
-          Otherwise delete this if you don't need it. */}
-          <img
-            src={logotext}
-            alt="logo"
-            className="sm:w-[90px] sm:h-[90px] w-[85px] h-[85px] -ml-[0.6rem] object-contain"
-          />
 
         </Link>
    
