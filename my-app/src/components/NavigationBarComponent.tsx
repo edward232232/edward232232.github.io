@@ -39,8 +39,7 @@ const NavigationBarComponent = () => {
           <img
             src={logo}// your logo comes here
             alt="logo"
-            className="sm:w-[100px] sm:h-[100px] w-[45px] h-[45px] object-contain"
-          />
+            className="sm:w-[100px] sm:h-[100px] w-[45px] h-[45px] object-contain pt-4"/>
           <span className ="text-eerieBlack hover:text-taupe text-[21px] font-medium font-mova 
           uppercase tracking-[3px] ">Eddie Kong</span>
 
