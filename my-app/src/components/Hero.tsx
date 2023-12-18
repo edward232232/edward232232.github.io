@@ -8,7 +8,7 @@ import Type from "./Type";
 const Profile = () => {
   return (
     <>
-      <section className="relative flex flex-col w-full h-screen mx-auto overflow-hidden sm:flex-row sm:bg-white bg-hero-mobile">
+      <section className="relative flex flex-col w-full h-screen mx-auto overflow-hidden sm:flex-row sm:bg-[#FCFEFF] bg-hero-mobile">
         <div
           className={`absolute inset-0 sm:top-[250px] top-[150px] 
           lg:top-[150px] xl:top-[250px] ${styles.paddingX} 
@@ -20,20 +20,24 @@ const Profile = () => {
             <div className="w-1 h-40 sm:h-80 bw-gradient sm:hidden" />
           </div>
 
-          <div style={{width: "500px"}}>
-            <h1 style={{ color: "black", fontSize: "2em" }}>
+          <div className={styles.typeStyle}>
+            <h1 className={styles.sectionHeadText}>
               Hi There!{" "}
-              <span role="img" aria-labelledby="wave" title="Wave">
+              <span
+                role="img"
+                aria-labelledby="wave"
+                title="Wave"
+                className={styles.waveEmoji2}
+              >
                 👋🏻
               </span>
             </h1>
 
-            <h1 style={{ color: "black", fontSize: "2em" }}>
-              I'M
-              <strong style={{ color: "purple" }}> Eddie Kong</strong>
+            <h1 className={styles.sectionHeadText}>
+              I'M <span style={styles.purpleText}>Eddie Kong</span>
             </h1>
 
-            <div style={{ color: "blue", marginTop: "20px" ,fontWeight: "bold", fontSize: "20px", width: "1000px"}}>
+            <div style={styles.blueDiv}>
               <Type />
             </div>
           </div>
@@ -70,9 +74,9 @@ const Profile = () => {
         {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
         <div>
           <img
-            className="absolute bottom-0 right-0 h-[500px]"
+            className="absolute bottom-[100px] right-0 h-[500px]"
             src={DeskWithMe}
-            alt="shaquille"
+            alt="DeskWithMe"
           />
         </div>
       </section>
