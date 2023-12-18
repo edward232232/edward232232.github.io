@@ -19,9 +19,9 @@ const ServiceCard = ({
       variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
       className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px] shadow-card"
     >
-      <div className="bg-jetLight rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
-        <img src={icon} alt={title} className="object-contain w-16 h-16" />
-        <h3 className="text-taupe text-[18px] font-bold text-center">
+      <div className="bg-custom-blue rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
+        <img src={icon} alt={title} className="object-contain w-32 h-32" />
+        <h3 className="text-black text-[18px] font-bold text-center">
           {title}
         </h3>
       </div>
@@ -61,7 +61,9 @@ const About = () => {
             rel="noopener noreferrer"
             title={service.title}
           >
+
             <ServiceCard index={index} {...service} />
+           
           </a>
         ))}
       </div>

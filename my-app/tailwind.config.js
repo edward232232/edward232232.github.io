@@ -12,6 +12,7 @@ const tailwindConfig = {
         'black-200': '#090325',
         'white-100': '#f3f3f3',
         'custom-blue': '#68B6CC',
+        'custom-blue-projectCard': '#20AFE2',
         flashWhite: '#f4f4f6',
         platinum: '#e6e6e9',
         platinumLight: '#f4f4f5',

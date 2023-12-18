@@ -47,20 +47,21 @@ import {
   
   const services = [
     {
-      title: 'Frontend Developer',
+      title: 'Frontend Development Project',
       icon: frontend,
       url: 'https://github.com/edward232232/dev-portfolio',
+      color: 'blue-text-gradient',
     },
     {
-      title: 'Backend Developer',
+      title: 'Backend Development Project',
       icon: backend,
     },
     {
-      title: 'Cloud /Devops ',
+      title: 'Cloud /Devops Project',
       icon: cloud,
     },
     {
-      title: 'Application Support',
+      title: 'AI Project',
       icon: prototyping,
     },
   ];
