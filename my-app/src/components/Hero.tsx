@@ -2,13 +2,13 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import DeskWithMe from "../assets/personal/MeWithDesk.jpeg";
+import DeskWithMe from "../assets/personal/me3.jpeg"
 import Type from "./Type";
 
 const Profile = () => {
   return (
     <>
-      <section className="relative flex flex-col w-full h-screen mx-auto overflow-hidden sm:flex-row sm:bg-[#FCFEFF] bg-hero-mobile">
+      <section className="relative flex flex-col w-full h-[85vh] mx-auto overflow-hidden sm:flex-row sm:bg-[#B8E8FE] bg-hero-mobile">
         <div
           className={`absolute inset-0 sm:top-[250px] top-[150px] 
           lg:top-[150px] xl:top-[250px] ${styles.paddingX} 
@@ -49,35 +49,55 @@ const Profile = () => {
           <div></div>
         </div>
 
-        <div className="absolute flex items-center justify-center w-full xs:bottom-10 bottom-32">
-          <a href="#about">
+        <div className="absolute flex items-center justify-center w-full xs:bottom-10 bottom-28">
+          <a
+            href="#about"
+            className="flex flex-col items-center justify-center"
+          >
             <div
               className="w-[35px] h-[64px] rounded-3xl border-4 
-            border-french border-dim flex
-            justify-center items-start p-2"
+      border-french border-dim flex
+      justify-center items-center p-2"
             >
               <motion.div
                 animate={{
-                  y: [0, 24, 0],
+                  y: [-4, 15, -4],
                 }}
                 transition={{
                   duration: 1.5,
                   repeat: Infinity,
                   repeatType: "loop",
                 }}
-                className="w-3 h-3 mb-1 rounded-full bg-taupe"
-              />
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="gray"
+                  className="w-5 h-5"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={6}
+                    d="M19 14l-7 7m0 0l-7-7m7 7V3"
+                  />
+                </svg>
+              </motion.div>
             </div>
+            <p className="text-sm text-center text-gray-500">
+              Scroll down to see more
+            </p>
           </a>
         </div>
 
         {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
         <div>
-          <img
-            className="absolute bottom-[100px] right-0 h-[500px]"
-            src={DeskWithMe}
-            alt="DeskWithMe"
-          />
+        <img
+  className="absolute bottom-[100px] right-[100px] h-[500px] shadow-2xl rounded-full"
+  src={DeskWithMe}
+  alt="DeskWithMe"
+/>
         </div>
       </section>
     </>

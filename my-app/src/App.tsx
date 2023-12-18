@@ -1,6 +1,7 @@
 import { BrowserRouter } from 'react-router-dom';
 import NavigationBarComponent from './components/NavigationBarComponent';
 import Profile from './components/Hero';
+import About from './components/About';
 
 const App = () => {
   return (
@@ -12,7 +13,7 @@ const App = () => {
         </div>
 
         <div className="bg-center bg-no-repeat bg-cover bg-about">
-          {/* <About /> */}
+          <About />
         </div>
 
         <div className="pb-10 bg-center bg-no-repeat bg-cover bg-tech">

@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { close, menu } from "../assets";
-import logo from "../assets/logo/cartoon_me.jpeg";
 
 const NavigationBarComponent = () => {
   const [active, setActive] = useState("");
@@ -14,34 +13,15 @@ const NavigationBarComponent = () => {
       className={`${styles.paddingX} w-full flex-col items-center py-2 fixed 
       top-0 z-20 bg-custom-blue xxs:h-[12vh] justify-center`}
     >
-      <div className="flex items-center justify-between w-full">
-        <Link
-          to="/"
-          className="flex items-center justify-center gap-2"
-          onClick={() => {
-            setActive("");
-            window.scrollTo(0, 0);
-          }}
-        >
-          <img
-            src={logo} // your logo comes here
-            alt="logo"
-            className="sm:w-[100px] sm:h-[100px] w-[45px] h-[45px] object-contain pt-4"
-          />
-          <span
-            className="text-eerieBlack hover:text-taupe text-[21px] font-medium font-mova 
-          uppercase tracking-[3px] "
-          >
-            Eddie Kong
-          </span>
-        </Link>
+      <div className="flex items-center justify-center w-full">
+   
         <ul className="flex-row justify-center hidden mt-2 list-none sm:flex gap-14">
           {navLinks.map((nav) => (
             <li
               key={nav.id}
               className={`${
-                active === nav.title ? "text-french" : "text-eerieBlack"
-              } hover:text-taupe text-[21px] font-medium font-mova 
+                active === nav.title ? "text-blue-500s" : "text-eerieBlack"
+              } hover:text-blue-500s text-[21px] font-medium font-mova 
           uppercase tracking-[3px] cursor-pointer nav-links`}
               onClick={() => setActive(nav.title)}
             >
