@@ -10,7 +10,7 @@ import shaq from './personal/shaq.png';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
-import cloud from './icons/cloud.jpeg';
+import cloud from './icons/cloud.png';
 import frontend from './icons/front-end.png';
 import prototyping from './icons/ai.png';
 import github from './icons/github.png';
