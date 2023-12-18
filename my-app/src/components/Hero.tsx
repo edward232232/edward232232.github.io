@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { styles } from "../styles";
-import { navLinks } from "../constants";
+// import { navLinks } from "../constants";
 import DeskWithMe from "../assets/personal/me3.jpeg"
 import Type from "./Type";
 

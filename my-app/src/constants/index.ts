@@ -27,7 +27,7 @@ import {
     coverhunt,
     dcc,
     kelhel,
-    microverse,
+    microsoft,
   } from '../assets';
   
   export const navLinks = [
@@ -127,18 +127,18 @@ import {
   
   const experiences = [
     {
-      title: 'Front-End Developer',
-      company_name: 'Cover Hunt',
-      icon: coverhunt,
+      title: 'Developer Azure Service Support Enginneer',
+      company_name: 'Microsoft',
+      icon: microsoft,
       iconBg: '#333333',
-      date: 'Aug 2021 - Feb 2022',
+      date: 'Feb 2021 - Feb 2022',
     },
     {
       title: 'Mentor (Volunteer)',
-      company_name: 'Microverse',
-      icon: microverse,
+      company_name: 'Microsoft',
+      icon: microsoft,
       iconBg: '#333333',
-      date: 'Mar 2022 - May 2022',
+      date: 'Feb 2022 - Present',
     },
     {
       title: 'Junior Software Engineer',

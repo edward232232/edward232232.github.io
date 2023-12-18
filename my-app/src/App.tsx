@@ -2,6 +2,7 @@ import { BrowserRouter } from 'react-router-dom';
 import NavigationBarComponent from './components/NavigationBarComponent';
 import Profile from './components/Hero';
 import About from './components/About';
+import Experience from './components/Experience';
 
 const App = () => {
   return (
@@ -28,7 +29,7 @@ const App = () => {
           <div
             className="bg-experienceLight bg-cover bg-center 
             bg-no-repeat rounded-tl-[150px] rounded-br-[130px]">
-            {/* <Experience /> */}
+            <Experience />
           </div>
         </div>
         <div className="relative z-0">

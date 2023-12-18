@@ -42,7 +42,7 @@ import rubyrails from './tech/rubyrails.png';
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
-import microverse from './company/microverse.png';
+import microsoft from './icons/microsoft.png';
 
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
@@ -97,5 +97,5 @@ export {
   coverhunt,
   dcc,
   kelhel,
-  microverse,
+  microsoft,
 };
