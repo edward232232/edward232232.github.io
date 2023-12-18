@@ -8,7 +8,7 @@ import Type from "./Type";
 const Profile = () => {
   return (
     <>
-      <section className="relative flex flex-col w-full h-[85vh] mx-auto overflow-hidden sm:flex-row sm:bg-[#B8E8FE] bg-hero-mobile">
+      <section className="relative flex flex-col w-full h-[95vh] mx-auto overflow-hidden sm:flex-row sm:bg-[#B8E8FE] bg-hero-mobile">
         <div
           className={`absolute inset-0 sm:top-[250px] top-[150px] 
           lg:top-[150px] xl:top-[250px] ${styles.paddingX} 
@@ -94,7 +94,7 @@ const Profile = () => {
         {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
         <div>
         <img
-  className="absolute bottom-[100px] right-[100px] h-[500px] shadow-2xl rounded-full"
+  className="absolute bottom-[20vh] right-[10vw] h-[50vh] shadow-2xl rounded-full"
   src={DeskWithMe}
   alt="DeskWithMe"
 />

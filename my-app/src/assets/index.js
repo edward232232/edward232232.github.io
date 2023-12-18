@@ -10,6 +10,7 @@ import shaq from './personal/shaq.png';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
+import cloud from './icons/cloud.jpeg';
 import frontend from './icons/frontend.png';
 import prototyping from './icons/prototyping.png';
 import github from './icons/github.png';
@@ -60,6 +61,7 @@ export {
   shaq,
   backend,
   ux,
+  cloud,
   frontend,
   prototyping,
   github,

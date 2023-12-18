@@ -2,6 +2,7 @@ import {
     frontend,
     backend,
     ux,
+    cloud,
     prototyping,
     javascript,
     typescript,
@@ -48,17 +49,18 @@ import {
     {
       title: 'Frontend Developer',
       icon: frontend,
+      url: 'https://github.com/edward232232/dev-portfolio',
     },
     {
       title: 'Backend Developer',
       icon: backend,
     },
     {
-      title: 'UI/UX Design',
-      icon: ux,
+      title: 'Cloud /Devops ',
+      icon: cloud,
     },
     {
-      title: 'Software Prototyping',
+      title: 'Application Support',
       icon: prototyping,
     },
   ];
