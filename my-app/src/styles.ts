@@ -18,18 +18,46 @@ const styles = {
     padding: 'sm:px-16 px-6 sm:py-16 py-10',
   
     heroHeadText:
-      'font-black text-eerieBlack lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[90px] mt-2',
+      'font-black text-eerieBlack lg:text-[70px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[90px] mt-2',
     heroSubText:
       'text-eerieBlack font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]',
-  
+
+      typeStyle: 'color: black; margin-top: 20px; font-weight: bold; font-size: 20px; width: 1000px;',
     sectionHeadText:
-      'text-eerieBlack font-black md:text-[60px] sm:text-[48px] xs:text-[40px] text-[30px] font-poppins',
+      'text-eerieBlack font-black md:text-[40px] sm:text-[48px] xs:text-[40px] text-[30px] font-poppins',
     sectionHeadTextLight:
       'text-timberWolf font-black md:text-[60px] sm:text-[48px] xs:text-[40px] text-[30px] font-poppins',
     sectionSubText:
       'sm:text-[18px] text-[16px] text-taupe uppercase tracking-wider font-semibold font-poppins',
     sectionSubTextLight:
       'sm:text-[18px] text-[16px] text-taupe uppercase tracking-wider font-semibold font-poppins',
+
+
+    strongStyle: 
+    'color: purple',
+
+  blueDiv: {
+    color: '#2CA4CA',
+    marginTop: "10px",
+    fontWeight: "bold",
+    fontSize: "3em",
+    width: "1000px",
+  },
+
+  purpleText: {
+    color: 'purple',
+  },
+
+      waveEmoji: {
+        animation: 'wave 1s infinite',
+        '@keyframes wave': {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-10px)' },
+        },
+      },
+
+  waveEmoji2:
+  'animation: wave 1s infinite; @keyframes wave { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }',
   };
   
   export { styles };
