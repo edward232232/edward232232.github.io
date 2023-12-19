@@ -3,6 +3,7 @@ import NavigationBarComponent from './components/NavigationBarComponent';
 import Profile from './components/Hero';
 import About from './components/About';
 import Experience from './components/Experience';
+import Projects from './components/Projects';
 
 const App = () => {
   return (
@@ -21,7 +22,7 @@ const App = () => {
           {/* <Tech /> */}
         </div>
 
-        {/* <Projects /> */}
+       
 
         <div
           className="bg-experience bg-cover bg-center bg-no-repeat 
@@ -31,6 +32,8 @@ const App = () => {
             bg-no-repeat rounded-tl-[150px] rounded-br-[130px]">
             <Experience />
           </div>
+
+          <Projects /> 
         </div>
         <div className="relative z-0">
           {/* <Contact /> */}

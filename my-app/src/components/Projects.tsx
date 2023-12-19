@@ -12,18 +12,39 @@ import {
   Tech,
   TechImg,
   TechName,
-
+  ContactWrapper,
 } from "./AboutElements";
 
+const ServiceCard = ({
+  index,
+  title,
+  icon,
+}: {
+  index: number;
+  title: string;
+  icon: string;
+}) => {
+  return (
+    <motion.div
+      variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
+      className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px] shadow-card"
+    >
+      <div className="bg-custom-blue rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
+        <img src={icon} alt={title} className="object-contain w-32 h-32" />
+        <h3 className="text-black text-[18px] font-bold text-center">
+          {title}
+        </h3>
+      </div>
+    </motion.div>
+  );
+};
 
 
-
-const About = () => {
+const Projects = () => {
   return (
     <div className="-mt-[6rem]">
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Projects.</h2>
       </motion.div>
 
       <motion.p
@@ -38,28 +59,6 @@ const About = () => {
         veniam dolorum ipsum doloribus.
       </motion.p>
 
-     
-      <motion.div variants={textVariant()}>
-
-      <h2 className={styles.sectionHeadText} >Technologies.</h2>
-
-      </motion.div>
-      <motion.div  variants={fadeIn("right", "spring", 1.5 , 0.75)}>
-      <div className="flex flex-wrap gap-10 mt-10">
-        {stackList.map((stack, index) => (
-   
-            <Tech className="tech">
-              <TechImg src={stack.img} alt={stack.name} />
-              <TechName>{stack.name}</TechName>
-            </Tech>
-        
-        ))}
-       </div>
-       </motion.div>
-
-      {/* <motion.div variants={textVariant()}>
-        <p className={styles.sectionHeadText}>Projects.</p>
-      </motion.div>
       <div className="flex flex-wrap gap-10 mt-10">
         {services.map((service, index) => (
           <a
@@ -72,9 +71,9 @@ const About = () => {
             <ServiceCard index={index} {...service} />
           </a>
         ))}
-      </div> */}
+      </div>
     </div>
   );
 };
 
-export default SectionWrapper(About, "about");
+export default SectionWrapper(Projects, "about");
