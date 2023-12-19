@@ -5,16 +5,6 @@ import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 
-import { stackList } from "./stacklist";
-import {
-  Image,
-  Technologies,
-  Tech,
-  TechImg,
-  TechName,
-  ContactWrapper,
-} from "./AboutElements";
-
 const ServiceCard = ({
   index,
   title,
@@ -76,4 +66,4 @@ const Projects = () => {
   );
 };
 
-export default SectionWrapper(Projects, "about");
+export default SectionWrapper(Projects, "projects");
