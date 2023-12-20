@@ -50,8 +50,10 @@ import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
+import ai900 from './certs/ai900.png'
 
 export {
+  ai900,
   bwmap,
   nairobi,
   whiteabstract,

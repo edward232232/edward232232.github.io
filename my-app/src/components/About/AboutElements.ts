@@ -26,6 +26,7 @@ export const Tech = styled.div`
   max-width: 100px;
   min-width: 100px;
   margin-bottom: 2rem;
+  text-align: center;
 `;
 
 export const TechImg = styled.img`

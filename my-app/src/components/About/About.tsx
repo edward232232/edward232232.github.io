@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { styles } from "../styles";
-import { fadeIn, textVariant } from "../utils/motion";
-import { SectionWrapper } from "../hoc";
+import { styles } from "../../styles";
+import { fadeIn, textVariant } from "../../utils/motion";
+import { SectionWrapper } from "../../hoc";
 import Technologies from "./Technologies";
 
 import { stackList } from "./stacklist";
@@ -34,6 +34,7 @@ const About = () => {
         Certifications: Azure AZ-900 and AI-900, AWS Cloud Practitioner 2017, MS
         Professional Developer MCPD2012, MCSA, ITIL v3, Comptia A+
       </motion.p>
+      
 
       <Technologies
         stackList={stackList}

@@ -1,7 +1,7 @@
 import { BrowserRouter } from 'react-router-dom';
 import NavigationBarComponent from './components/NavigationBarComponent';
 import Profile from './components/Hero';
-import About from './components/About';
+import About from './components/About/About';
 
 import Projects from './components/Projects';
 import Experience from './components/ExperienceComponent';
