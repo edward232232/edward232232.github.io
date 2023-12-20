@@ -80,12 +80,9 @@
 }
 
 .vertical-timeline.vertical-timeline-custom-line::before {
-  background: rgb(66, 66, 66);
-  background: linear-gradient(
-    180deg,
-    rgba(66, 66, 66, 0.8) 40%,
-    rgba(234, 234, 236, 0.45) 100%
-  );
+ 
+  background: "custom-blue";
+  height: 2000px;
 }
 
 .vertical-timeline-element-icon {

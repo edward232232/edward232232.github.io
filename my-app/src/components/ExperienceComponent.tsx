@@ -10,7 +10,18 @@ import {
   import { download, downloadHover, resume } from '../assets';
   import { textVariant } from '../utils/motion';
   
-  const ExperienceCard = ({ experience }) => (
+  type Experience = {
+    date: string;
+    title: string;
+    company_name: string;
+    iconBg: string;
+    icon: string;
+    // Add other properties here
+  };
+  const ExperienceCard = ({ experience }: { experience: Experience }) => (
+    // Your code here
+
+
     <VerticalTimelineElement
       contentStyle={{
         background: '#eaeaec',
@@ -21,13 +32,7 @@ import {
       contentArrowStyle={{
         borderRight: '7px solid  #232631',
       }}
-      date={
-        <div>
-          <h3 className="text-dim text-[18px] font-bold font-beckman">
-            {experience.date}
-          </h3>
-        </div>
-      }
+      date={experience.date}
       iconStyle={{ background: experience.iconBg }}
       icon={
         <div className="flex items-center justify-center w-full h-full">
@@ -51,10 +56,10 @@ import {
     </VerticalTimelineElement>
   );
   
-  const Experience = () => {
+  const ExperienceComponent = () => {
     return (
       <>
-        <motion.div variants={textVariant()}>
+        <motion.div variants={textVariant()} transition={{ duration: 1 }}>
           <p className={`${styles.sectionSubText} sm:pl-16 pl-[2rem]`}>
             What I've done so far
           </p>
@@ -65,13 +70,15 @@ import {
   
         <div className="flex flex-col mt-20">
           <VerticalTimeline className="vertical-timeline-custom-line">
+      
+
             {experiences.map((experience, index) => (
               <ExperienceCard key={index} experience={experience} />
             ))}
             <VerticalTimelineElement
               contentStyle={{
                 background: '#eaeaec',
-                color: '#292929',
+                color: 'custom-blue',
                 boxShadow:
                   'rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px',
                 display: 'flex',
@@ -107,15 +114,18 @@ import {
                   )
                 }
                 onMouseOver={() => {
-                  document
-                    .querySelector('.download-btn')
-                    .setAttribute('src', downloadHover);
+                  const downloadBtn = document.querySelector('.download-btn');
+                  if (downloadBtn) {
+                    downloadBtn.setAttribute('src', downloadHover);
+                  }
                 }}
                 onMouseOut={() => {
-                  document
-                    .querySelector('.download-btn')
-                    .setAttribute('src', download);
-                }}>
+                  const downloadBtn = document.querySelector('.download-btn');
+                  if (downloadBtn) {
+                    downloadBtn.setAttribute('src', downloadHover);
+                  }
+                }}
+                >
                 MY RESUME
                 <img
                   src={download}
@@ -125,11 +135,13 @@ import {
                 />
               </button>
             </VerticalTimelineElement>
+          
           </VerticalTimeline>
+          
         </div>
       </>
     );
   };
   
-  export default SectionWrapper(Experience, 'work');
+  export default SectionWrapper(ExperienceComponent, 'work');
   

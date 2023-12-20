@@ -56,7 +56,7 @@ const Profile = () => {
           >
             <div
               className="w-[35px] h-[64px] rounded-3xl border-4 
-      border-french border-dim flex
+      border-french flex
       justify-center items-center p-2"
             >
               <motion.div
