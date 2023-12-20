@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
+import Technologies from "./Technologies";
 
 import { stackList } from "./stacklist";
 import { Tech, TechImg, TechName } from "./AboutElements";
@@ -34,20 +35,12 @@ const About = () => {
         Professional Developer MCPD2012, MCSA, ITIL v3, Comptia A+
       </motion.p>
 
-      <motion.div variants={textVariant()}>
-        <h2 className={styles.sectionHeadText}>Technologies.</h2>
-      </motion.div>
-      <motion.div variants={fadeIn("right", "spring", 1, 0.75)}>
-        <div className="flex flex-wrap gap-10 mt-10">
-          {stackList.map((stack, index) => (
-            <Tech className="tech">
-              <TechImg src={stack.img} alt={stack.name} />
-              <TechName>{stack.name}</TechName>
-            </Tech>
-          ))}
-        </div>
-      </motion.div>
-
+      <Technologies
+        stackList={stackList}
+        styles={styles}
+        textVariant={textVariant}
+        fadeIn={fadeIn}
+      />
     </div>
   );
 };
