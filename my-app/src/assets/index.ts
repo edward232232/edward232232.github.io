@@ -39,10 +39,12 @@ import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
 
-import coverhunt from './company/coverhunt.png';
-import dcc from './company/dcc.png';
-import kelhel from './company/kelhel.png';
-import microsoft from './icons/microsoft.png';
+import kinaxis from './company/kinaxis.png';
+import mtu from './company/mtu.png';
+import autotrader from './company/autotrader.png';
+import microsoft from './company/microsoft.png';
+import northplains from './company/northplains.png'
+import troutman from './company/troutman.png'
 
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
@@ -56,6 +58,7 @@ import az900 from './certs/az900.png'
 import mcp from './certs/MCP.jpg'
 import mcpd from './certs/MCPD.png'
 import aws from './certs/awscert.png'
+
 export {
   az900,
   mcp,
@@ -104,8 +107,10 @@ export {
   movie,
   nyeusi,
   space,
-  coverhunt,
-  dcc,
-  kelhel,
+  autotrader,
+  kinaxis,
+  mtu,
   microsoft,
+  troutman,
+  northplains,
 };
