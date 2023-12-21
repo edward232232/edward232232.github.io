@@ -23,6 +23,10 @@ import menu from './icons/menu.png';
 import resume from './icons/resume.png';
 import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
+import aisearch from './icons/aisearch.png'
+import servicebus from './icons/service-bus.png'
+import eventhub from './icons/event-hubs.png'
+import postman from './icons/postman.png'
 
 import css from './tech/css.png';
 import docker from './tech/docker.png';
@@ -60,6 +64,10 @@ import mcpd from './certs/MCPD.png'
 import aws from './certs/awscert.png'
 
 export {
+  postman,
+  eventhub,
+  servicebus,
+  aisearch,
   az900,
   mcp,
   mcpd,
