@@ -10,20 +10,20 @@ import Skills from "./components/Skills";
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative z-0 bg-gray-200">
+      <div className="relative z-0 bg-blue-200">
         <div>
           <NavigationBarComponent />
           <Profile />
         </div>
 
-        <div className="bg-center bg-no-repeat bg-cover bg-blue-200">
+        <div className="bg-center bg-no-repeat bg-cover">
           <About />
     
           <Skills />
         </div>
 
         <div
-          className="bg-gray-300 bg-center bg-no-repeat rounded-[200px] rounded-br-[200px]"
+          className="bg-[#B8E8FE] bg-center bg-no-repeat rounded-[200px] rounded-br-[200px]"
           style={{ margin: "40px" }}
         >
           <Experience />

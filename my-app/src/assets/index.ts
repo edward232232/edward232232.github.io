@@ -27,6 +27,7 @@ import aisearch from './icons/aisearch.png'
 import servicebus from './icons/service-bus.png'
 import eventhub from './icons/event-hubs.png'
 import postman from './icons/postman.png'
+import kusto from './icons/kusto.png'
 
 import css from './tech/css.png';
 import docker from './tech/docker.png';
@@ -64,6 +65,7 @@ import mcpd from './certs/MCPD.png'
 import aws from './certs/awscert.png'
 
 export {
+  kusto,
   postman,
   eventhub,
   servicebus,

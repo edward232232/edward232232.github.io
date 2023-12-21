@@ -37,6 +37,7 @@ import {
   servicebus,
   eventhub,
   postman,
+  kusto,
 } from "../assets";
 
 export const navLinks = [
@@ -314,6 +315,10 @@ const stackList = {
       img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg",
       name: "TailwindCSS",
     },
+    {
+      img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/wordpress/wordpress-plain.svg",
+      name: "WordPress",
+    },
   ],
   backend: [
     {
@@ -352,6 +357,10 @@ const stackList = {
     {
       img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg",
       name: "MS SQL",
+    },
+    {
+      img: kusto,
+      name: "Kusto",
     },
   ],
   infrastructure: [
