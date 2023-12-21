@@ -1,7 +1,6 @@
 import {
     frontend,
     backend,
-    ux,
     cloud,
     prototyping,
     javascript,
@@ -33,7 +32,10 @@ import {
    ai900, 
    aws,
     mcp,
-    mcpd 
+    mcpd,
+    aisearch,
+    servicebus,
+    eventhub,
   } from '../assets';
   
   export const navLinks = [
@@ -382,9 +384,29 @@ import {
     {
       img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg",
       name: "Linux",
+      
     },
     
-    
+    {
+      img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg",
+      name: "Jupyter",
+      
+    },
+    {
+      img: servicebus,
+      name: "Azure Service Bus",
+      
+    },
+    {
+      img: eventhub,
+      name: "Azure Event Hubs",
+      
+    },
+    {
+      img: aisearch,
+      name: "Azure AI Search",
+      
+    },
   ],
   certs: [
     {
