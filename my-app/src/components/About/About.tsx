@@ -26,7 +26,7 @@ const About = () => {
       </motion.p>
 
       <motion.div variants={textVariant()}>
-        <h2 className={`${styles.sectionSubText} text-center`}>
+        <h2 className={`${styles.sectionHeadText} text-center`}>
           Certifications:
         </h2>
       </motion.div>
