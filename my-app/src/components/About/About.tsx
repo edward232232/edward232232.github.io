@@ -27,13 +27,19 @@ const About = () => {
         contributing to innovative solutions.
       </motion.p>
 
+      <motion.div variants={textVariant()}>
+    <h2 className={`${styles.sectionSubText} text-center`}> {/* Add text-center */}
+
+        Certifications:
+      </h2>
+    </motion.div>
       <Technologies
-        stackList={stackList}
-        styles={styles}
-        textVariant={textVariant}
-        fadeIn={fadeIn}
-      />
-    </div>
+  stackList={{ certs: stackList.certs }}
+  styles={styles}
+  textVariant={textVariant}
+  fadeIn={fadeIn}
+/>
+</div>
   );
 };
 
