@@ -27,15 +27,6 @@ const About = () => {
         contributing to innovative solutions.
       </motion.p>
 
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px] mb-20"
-      >
-        Certifications: Azure AZ-900 and AI-900, AWS Cloud Practitioner 2017, MS
-        Professional Developer MCPD2012, MCSA, ITIL v3, Comptia A+
-      </motion.p>
-      
-
       <Technologies
         stackList={stackList}
         styles={styles}

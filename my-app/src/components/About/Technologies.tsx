@@ -27,21 +27,19 @@ const Technologies: React.FC<TechnologiesProps> = ({
 }) => (
   <div>
     <motion.div variants={textVariant()}>
-      <h5 className={styles.sectionSubText}>Certifications:</h5>
+      <h2 className={styles.sectionSubText} style={{ textAlign: 'center' }}>Certifications:</h2>
     </motion.div>
 
     <motion.div variants={fadeIn("right", "spring", 1, 1)}>
-      <div className="flex flex-wrap gap-10 mt-10">
-        <div className="flex">
-          {stackList.certs.map((stack: Stack, index: number) => (
-            <Tech className="tech">
-              <TechImg src={stack.img} alt={stack.name} />
-              <TechName>{stack.name}</TechName>
-            </Tech>
-          ))}
-        </div>
-      </div>
-    </motion.div>
+  <div className="flex flex-wrap gap-20 mt-10 justify-center">
+    {stackList.certs.map((stack: Stack, index: number) => (
+      <Tech className="tech">
+        <TechImg style={{ width: '100px', height: '100px' }} src={stack.img} alt={stack.name} />
+        <TechName>{stack.name}</TechName>
+      </Tech>
+    ))}
+  </div>
+</motion.div>
 
    
 

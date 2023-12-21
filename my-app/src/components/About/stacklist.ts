@@ -1,5 +1,5 @@
-import { frontend } from "../../assets";
-import ai900 from "../../assets/certs/ai900.png"
+import { az900, ai900, aws, mcp,mcpd } from "../../assets";
+
 export const stackList = {
   frontend: [
     {
@@ -82,8 +82,25 @@ export const stackList = {
   certs: [
     {
       img: ai900,
-      name: "Microsoft Azure AI Fundamentals ",
+      name: "Microsoft Azure AI Fundamentals 2022",
     },
+    {
+      img: az900,
+      name: "Microsoft Azure Fundamentals 2022",
+    },
+    {
+      img: aws,
+      name: "AWS Certified Cloud Practitioner 2019",
+    },
+    {
+      img: mcp,
+      name: " Microsoft Certified Professional 2013",
+    },
+    {
+      img: mcpd,
+      name: "Microsoft Certified Professional Developer 2012",
+    },
+
 
   ],
 };

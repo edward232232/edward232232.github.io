@@ -50,9 +50,17 @@ import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
-import ai900 from './certs/ai900.png'
 
+import ai900 from './certs/ai900.png'
+import az900 from './certs/az900.png'
+import mcp from './certs/MCP.jpg'
+import mcpd from './certs/MCPD.png'
+import aws from './certs/awscert.png'
 export {
+  az900,
+  mcp,
+  mcpd,
+  aws,
   ai900,
   bwmap,
   nairobi,
