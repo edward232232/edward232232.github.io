@@ -9,6 +9,9 @@ import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { download, downloadHover, resume } from "../assets";
 import { textVariant } from "../utils/motion";
+import { useInView } from 'react-intersection-observer';
+
+import { fadeIn } from "../utils/motion";
 
 type Experience = {
   date: string;
@@ -19,7 +22,6 @@ type Experience = {
   // Add other properties here
 };
 const ExperienceCard = ({ experience }: { experience: Experience }) => (
-  // Your code here
 
   <VerticalTimelineElement
     contentStyle={{
@@ -27,9 +29,13 @@ const ExperienceCard = ({ experience }: { experience: Experience }) => (
       color: "#292929",
       boxShadow:
         "rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px",
+        borderRadius: "30px",
+  
     }}
+    
     contentArrowStyle={{
       borderRight: "7px solid  #232631",
+    
     }}
     date={experience.date}
     iconStyle={{ background: experience.iconBg }}
@@ -38,7 +44,8 @@ const ExperienceCard = ({ experience }: { experience: Experience }) => (
         <img
           src={experience.icon}
           alt={experience.company_name}
-          className="w-[100%] h-[100%] object-contain"
+          className="w-[120%] h-[120%] object-contain" 
+          
         />
       </div>
     }

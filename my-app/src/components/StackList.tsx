@@ -1,7 +1,6 @@
-// Technologies.tsx
 import React from "react";
 import { motion } from "framer-motion";
-import { Tech, TechImg, TechName } from "./AboutElements"; // replace with your actual imports
+import { Tech, TechImg, TechName } from "./About/AboutElements"; // replace with your actual imports
 
 interface TechnologiesProps {
   stackList?: {
@@ -28,7 +27,7 @@ const Technologies: React.FC<TechnologiesProps> = ({
   <div>
  
 
-    <motion.div variants={fadeIn("right", "spring", 1, 1)}>
+    <motion.div variants={fadeIn("right", "spring", .5, 2)}>
       <div className="flex flex-wrap gap-20 mt-10 justify-center">
         {stackList?.certs?.map((stack: Stack, index: number) => (
           <Tech className="tech">
@@ -43,9 +42,8 @@ const Technologies: React.FC<TechnologiesProps> = ({
       </div>
     </motion.div>
 
-    <motion.div variants={fadeIn("left", "spring", 1, 3)}>
+    <motion.div variants={fadeIn("left", "spring", .5, 2)}>
       <div>
-        {/* <h2 className={styles.sectionSubText}>Frontend:</h2> */}
         <div className="flex">
           {stackList?.frontend?.map((stack: Stack, index: number) => (
             <Tech className="tech">
@@ -57,7 +55,6 @@ const Technologies: React.FC<TechnologiesProps> = ({
       </div>
 
       <div>
-        {/* <h2 className={styles.sectionSubText}>Backend:</h2> */}
         <div className="flex">
           {stackList?.backend?.map((stack: Stack, index: number) => (
             <Tech className="tech">
@@ -69,7 +66,6 @@ const Technologies: React.FC<TechnologiesProps> = ({
       </div>
 
       <div>
-        {/* <h2 className={styles.sectionSubText}>Infrastructure:</h2> */}
         <div className="flex">
           {stackList?.infrastructure?.map((stack: Stack, index: number) => (
             <Tech className="tech">

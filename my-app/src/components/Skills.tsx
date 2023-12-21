@@ -4,7 +4,7 @@ import { SectionWrapper } from "../hoc";
 
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
-import Technologies from "./About/StackList";
+import Technologies from "./StackList";
 import { stackList } from "../constants";
 
 const Tech = () => {

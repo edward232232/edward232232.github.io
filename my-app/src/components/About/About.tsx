@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { styles } from "../../styles";
 import { fadeIn, textVariant } from "../../utils/motion";
 import { SectionWrapper } from "../../hoc";
-import Technologies from "./Technologies";
+import Technologies from "../StackList";
 import { stackList } from "../../constants";
 
 const About = () => {
@@ -30,7 +30,7 @@ const About = () => {
           Certifications:
         </h2>
       </motion.div>
-      
+
       <Technologies
         stackList={{ certs: stackList.certs }}
         styles={styles}
