@@ -4,7 +4,7 @@ import { SectionWrapper } from "../hoc";
 
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
-import Technologies from "./About/Technologies";
+import Technologies from "./About/StackList";
 import { stackList } from "../constants";
 
 const Tech = () => {
@@ -12,7 +12,7 @@ const Tech = () => {
     <>
       <motion.div variants={textVariant()} className="mb-10">
         <p className={styles.sectionSubTextLight}>My skills</p>
-        <h2 className={styles.sectionHeadTextLight}>Technologies.</h2>
+        <h2 className={styles.sectionHeadText}>Technologies.</h2>
       </motion.div>
 
     
