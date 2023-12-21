@@ -23,19 +23,17 @@ export const stackList = {
       name: "Typescript",
     },
     {
-      img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
-      name: "Git",
+      img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg",
+      name: "TailwindCSS",
     },
+ 
   ],
   backend: [
     {
       img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
       name: "NodeJS",
     },
-    {
-      img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
-      name: "MongoDB",
-    },
+   
     {
       img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
       name: "Python",
@@ -45,7 +43,7 @@ export const stackList = {
       name: "Flask",
     },
     {
-      img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
+      img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg",
       name: "C sharp",
     },
     {
@@ -53,31 +51,53 @@ export const stackList = {
       name: "Java",
     },
     {
+      img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg",
+      name: ".NET",
+    },
+    {
       img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg",
       name: "MySQL",
     },
     {
-      img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg",
-      name: "Bootstrap",
+      img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
+      name: "MongoDB",
     },
     {
-      img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg",
-      name: "Material UI",
+      img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg",
+      name: "MS SQL",
     },
   ],
   infrastructure: [
     {
-      img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg",
-      name: "Figma",
+      img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original.svg",
+      name: "AWS",
     },
+
     {
-      img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg",
-      name: "TailwindCSS",
+      img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original.svg",
+      name: "Azure",
     },
+  
     {
       img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
       name: "VS Code",
-    }
+    },
+    {
+      img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg",
+      name: "GitHub",
+    },
+
+    {
+      img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg",
+      name: "Docker",
+    },
+
+    {
+      img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg",
+      name: "Linux",
+    },
+    
+    
   ],
   certs: [
     {

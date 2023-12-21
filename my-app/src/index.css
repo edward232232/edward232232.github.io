@@ -81,8 +81,7 @@
 
 .vertical-timeline.vertical-timeline-custom-line::before {
  
-  background: "custom-blue";
-  height: 2000px;
+  background: "custom-blue"
 }
 
 .vertical-timeline-element-icon {
