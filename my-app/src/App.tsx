@@ -23,7 +23,7 @@ const App = () => {
         </div>
 
         <div
-          className="bg-gray-200 bg-center bg-no-repeat rounded-[200px] rounded-br-[200px]"
+          className="bg-gray-300 bg-center bg-no-repeat rounded-[200px] rounded-br-[200px]"
           style={{ margin: "40px" }}
         >
           <Experience />
