@@ -5,6 +5,7 @@ import About from './components/About/About';
 
 import Projects from './components/Projects';
 import Experience from './components/ExperienceComponent';
+import Skills from './components/Skills';
 
 const App = () => {
   return (
@@ -18,9 +19,10 @@ const App = () => {
         <div className="bg-center bg-no-repeat bg-cover bg-about">
           <About />
         </div>
+        <div className="bg-center bg-no-repeat bg-cover bg-about">
 
-      
-       
+        <Skills />
+        </div>
 
         <div
           className="bg-experience bg-cover bg-center bg-no-repeat 

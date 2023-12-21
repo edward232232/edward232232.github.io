@@ -4,9 +4,7 @@ import { styles } from "../../styles";
 import { fadeIn, textVariant } from "../../utils/motion";
 import { SectionWrapper } from "../../hoc";
 import Technologies from "./Technologies";
-
-import { stackList } from "./stacklist";
-import { Tech, TechImg, TechName } from "./AboutElements";
+import { stackList } from "../../constants";
 
 const About = () => {
   return (
@@ -28,18 +26,18 @@ const About = () => {
       </motion.p>
 
       <motion.div variants={textVariant()}>
-    <h2 className={`${styles.sectionSubText} text-center`}> {/* Add text-center */}
-
-        Certifications:
-      </h2>
-    </motion.div>
+        <h2 className={`${styles.sectionSubText} text-center`}>
+          Certifications:
+        </h2>
+      </motion.div>
+      
       <Technologies
-  stackList={{ certs: stackList.certs }}
-  styles={styles}
-  textVariant={textVariant}
-  fadeIn={fadeIn}
-/>
-</div>
+        stackList={{ certs: stackList.certs }}
+        styles={styles}
+        textVariant={textVariant}
+        fadeIn={fadeIn}
+      />
+    </div>
   );
 };
 
