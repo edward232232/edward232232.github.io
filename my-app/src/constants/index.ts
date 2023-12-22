@@ -142,6 +142,11 @@ const experiences = [
     icon: microsoft,
     iconBg: "#333333",
     date: "2022 - Present",
+    description: `
+    As a Developer Azure Service Support Engineer at Microsoft, 
+    I specialize in code troubleshooting, debugging, and providing training on our SDK, 
+    contributing significantly to exceptional customer satisfaction and recognized through multiple awards.
+  `
   },
   {
     title: "Service Operations Analyst",
@@ -149,6 +154,11 @@ const experiences = [
     icon: kinaxis,
     iconBg: "#333333",
     date: "2020 - 2022",
+    description: `
+    Line 1 of the description.
+    Line 2 of the description.
+    Line 3 of the description.
+  `
   },
   {
     title: "Tier 2-3 Application / AWS Cloud Administrator",
@@ -156,6 +166,11 @@ const experiences = [
     icon: northplains,
     iconBg: "#333333",
     date: "2011 - 2019",
+    description: `
+    Line 1 of the description.
+    Line 2 of the description.
+    Line 3 of the description.
+  `
   },
   {
     title: "Application Analyst Lead",
@@ -163,6 +178,11 @@ const experiences = [
     icon: troutman,
     iconBg: "#333333",
     date: "2008 - 2010",
+    description: `
+    Line 1 of the description.
+    Line 2 of the description.
+    Line 3 of the description.
+  `
   },
 
   {
@@ -171,6 +191,11 @@ const experiences = [
     icon: autotrader,
     iconBg: "#333333",
     date: "2005 - 2007",
+    description: `
+    Line 1 of the description.
+    Line 2 of the description.
+    Line 3 of the description.
+  `
   },
 ];
 

@@ -4,7 +4,7 @@ import Profile from "./components/Hero";
 import About from "./components/About/About";
 
 import Projects from "./components/Projects";
-import Experience from "./components/ExperienceComponent";
+import Experience from "./components/Experience";
 import Skills from "./components/Skills";
 
 const App = () => {
@@ -18,13 +18,13 @@ const App = () => {
 
         <div className="bg-center bg-no-repeat bg-cover">
           <About />
-    
+
           <Skills />
         </div>
 
         <div
           className="bg-[#B8E8FE] bg-center bg-no-repeat rounded-[200px] rounded-br-[200px]"
-          style={{ margin: "40px" }}
+          style={{ margin: "100px" }}
         >
           <Experience />
         </div>

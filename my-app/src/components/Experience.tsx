@@ -9,9 +9,6 @@ import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { download, downloadHover, resume } from "../assets";
 import { textVariant } from "../utils/motion";
-import { useInView } from "react-intersection-observer";
-
-import { fadeIn } from "../utils/motion";
 
 type Experience = {
   date: string;
@@ -19,6 +16,7 @@ type Experience = {
   company_name: string;
   iconBg: string;
   icon: string;
+  description: string;
   // Add other properties here
 };
 const ExperienceCard = ({ experience }: { experience: Experience }) => (
@@ -54,6 +52,9 @@ const ExperienceCard = ({ experience }: { experience: Experience }) => (
         style={{ margin: 0 }}
       >
         {experience.company_name}
+        <p style={{ fontFamily: 'Arial, sans-serif' }}>
+      {experience.description}
+    </p>
       </p>
     </div>
   </VerticalTimelineElement>
@@ -85,8 +86,7 @@ const ExperienceComponent = () => {
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
-              borderRadius: "30px"
-              
+              borderRadius: "30px",
             }}
             contentArrowStyle={{
               borderRight: "7px solid  #232631",
