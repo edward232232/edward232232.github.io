@@ -10,7 +10,7 @@ import Skills from "./components/Skills";
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative z-0 bg-[#ace0f9]">
+      <div className="relative z-0 bg-gradient-to-b from-blue-500 via-green-200 to-purple-600">
         <div>
           <NavigationBarComponent />
           <Profile />
