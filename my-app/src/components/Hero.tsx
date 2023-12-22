@@ -8,7 +8,7 @@ import Type from "./Type";
 const Profile = () => {
   return (
     <>
-      <section className="relative flex flex-col w-full h-[95vh] mx-auto overflow-hidden sm:flex-row bg-gradient-to-b from-[#C274E9] via-[#D6A4EB] to-[#B8E8FE] bg-hero-mobile">
+      <section className="relative flex flex-col w-full h-[95vh] mx-auto overflow-hidden sm:flex-row bg-gradient-to-b from-[#C274E9] via-[#D6A4EB] to-[#ace0f9]">
         {" "}
         <div
           className={`absolute inset-0 sm:top-[250px] top-[150px] 
@@ -38,7 +38,7 @@ const Profile = () => {
               I'M <span style={styles.purpleText}>Eddie Kong</span>
             </h1>
 
-            <div style={styles.blueDiv}>
+            <div className={styles.blueText}>
               <Type />
             </div>
           </div>
