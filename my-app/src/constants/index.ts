@@ -144,9 +144,9 @@ const experiences = [
     date: "2022 - Present",
     description: `
     As a Developer Azure Service Support Engineer at Microsoft, 
-    I specialize in code troubleshooting, debugging, and providing training on our SDK, 
+    I specialize in  troubleshooting cloud services, debugging, and providing training on our SDK, 
     contributing significantly to exceptional customer satisfaction and recognized through multiple awards.
-  `
+  `,
   },
   {
     title: "Service Operations Analyst",
@@ -155,10 +155,10 @@ const experiences = [
     iconBg: "#333333",
     date: "2020 - 2022",
     description: `
-    Line 1 of the description.
-    Line 2 of the description.
-    Line 3 of the description.
-  `
+    Instrumental in updating and maintaining backend Windows servers, monitoring software components, providing JavaScript code guidance,
+    assisting customers, collaborating across departments for issue resolution, 
+    contributing to DevOps initiatives, and earning recognition for exceptional support and problem-solving abilities.
+  `,
   },
   {
     title: "Tier 2-3 Application / AWS Cloud Administrator",
@@ -167,10 +167,12 @@ const experiences = [
     iconBg: "#333333",
     date: "2011 - 2019",
     description: `
-    Line 1 of the description.
-    Line 2 of the description.
-    Line 3 of the description.
-  `
+
+    Gained esteem for outstanding problem-solving and incident management;
+     provided Tier 2-3 Application support and Cloud administration in AWS, 
+      developed UI customizations, orchestrated AWS resources, collaborated across global teams, 
+      integrated C# ASP.NET applications with Salesforce API, and ensured rigorous testing across diverse databases within a DevOps framework.
+  `,
   },
   {
     title: "Application Analyst Lead",
@@ -182,7 +184,7 @@ const experiences = [
     Line 1 of the description.
     Line 2 of the description.
     Line 3 of the description.
-  `
+  `,
   },
 
   {
@@ -195,7 +197,7 @@ const experiences = [
     Line 1 of the description.
     Line 2 of the description.
     Line 3 of the description.
-  `
+  `,
   },
 ];
 
