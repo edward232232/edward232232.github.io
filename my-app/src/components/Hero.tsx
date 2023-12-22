@@ -8,8 +8,7 @@ import Type from "./Type";
 const Profile = () => {
   return (
     <>
-      <section className="relative flex flex-col w-full h-[95vh] mx-auto overflow-hidden sm:flex-row sm:bg-[#B8E8FE] bg-hero-mobile">
-        <div
+<section className="relative flex flex-col w-full h-[95vh] mx-auto overflow-hidden sm:flex-row bg-gradient-to-b from-[#C274E9] via-[#D6A4EB] to-[#B8E8FE] bg-hero-mobile">      <div
           className={`absolute inset-0 sm:top-[250px] top-[150px] 
           lg:top-[150px] xl:top-[250px] ${styles.paddingX} 
           max-w-7xl mx-auto flex flex-row items-start

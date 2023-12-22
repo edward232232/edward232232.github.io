@@ -64,9 +64,7 @@ const ExperienceComponent = () => {
   return (
     <>
       <motion.div variants={textVariant()} transition={{ duration: 1 }}>
-        <p className={`${styles.sectionSubText} sm:pl-16 pl-[2rem]`}>
-          What I've done so far
-        </p>
+   
         <h2 className={`${styles.sectionHeadText} sm:pl-16 pl-[2rem]`}>
           Work Experience.
         </h2>
