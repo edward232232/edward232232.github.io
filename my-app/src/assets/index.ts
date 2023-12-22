@@ -23,11 +23,12 @@ import menu from './icons/menu.png';
 import resume from './icons/resume.png';
 import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
-import aisearch from './icons/aisearch.png'
-import servicebus from './icons/service-bus.png'
-import eventhub from './icons/event-hubs.png'
-import postman from './icons/postman.png'
-import kusto from './icons/kusto.png'
+import aisearch from './icons/aisearch.png';
+import servicebus from './icons/service-bus.png';
+import eventhub from './icons/event-hubs.png';
+import postman from './icons/postman.png';
+import kusto from './icons/kusto.png';
+import datadog from './icons/DDOG.png'
 
 import css from './tech/css.png';
 import docker from './tech/docker.png';
@@ -123,4 +124,5 @@ export {
   microsoft,
   troutman,
   northplains,
+  datadog,
 };

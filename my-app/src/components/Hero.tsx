@@ -2,13 +2,15 @@ import { motion } from "framer-motion";
 // import { Link } from "react-router-dom";
 import { styles } from "../styles/styles";
 // import { navLinks } from "../constants";
-import DeskWithMe from "../assets/personal/me3.jpeg"
+import DeskWithMe from "../assets/personal/me3.jpeg";
 import Type from "./Type";
 
 const Profile = () => {
   return (
     <>
-<section className="relative flex flex-col w-full h-[95vh] mx-auto overflow-hidden sm:flex-row bg-gradient-to-b from-[#C274E9] via-[#D6A4EB] to-[#B8E8FE] bg-hero-mobile">      <div
+      <section className="relative flex flex-col w-full h-[95vh] mx-auto overflow-hidden sm:flex-row bg-gradient-to-b from-[#C274E9] via-[#D6A4EB] to-[#B8E8FE] bg-hero-mobile">
+        {" "}
+        <div
           className={`absolute inset-0 sm:top-[250px] top-[150px] 
           lg:top-[150px] xl:top-[250px] ${styles.paddingX} 
           max-w-7xl mx-auto flex flex-row items-start
@@ -47,7 +49,6 @@ const Profile = () => {
 
           <div></div>
         </div>
-
         <div className="absolute flex items-center justify-center w-full xs:bottom-10 bottom-28">
           <a
             href="#about"
@@ -89,14 +90,13 @@ const Profile = () => {
             </p>
           </a>
         </div>
-
         {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
         <div>
-        <img
-  className="absolute bottom-[20vh] right-[10vw] h-[50vh] shadow-2xl rounded-full"
-  src={DeskWithMe}
-  alt="DeskWithMe"
-/>
+          <img
+            className="absolute bottom-[20vh] right-[10vw] h-[50vh] shadow-2xl rounded-full border-gray border-8"
+            src={DeskWithMe}
+            alt="DeskWithMe"
+          />
         </div>
       </section>
     </>

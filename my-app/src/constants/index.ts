@@ -38,6 +38,7 @@ import {
   eventhub,
   postman,
   kusto,
+  datadog,
 } from "../assets";
 
 export const navLinks = [
@@ -421,9 +422,10 @@ const stackList = {
     },
 
     {
-      img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg",
-      name: "Jupyter",
+      img: datadog,
+      name: "Datadog",
     },
+    
     {
       img: servicebus,
       name: "Azure Service Bus",
