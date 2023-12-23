@@ -39,6 +39,7 @@ import {
   postman,
   kusto,
   datadog,
+  serverless, 
 } from "../assets";
 
 export const navLinks = [
@@ -192,6 +193,18 @@ const experiences = [
     title: "Tier 1-2 Support Analyst / IT Trainer",
     company_name: "AutoTrader YellowPage",
     icon: autotrader,
+    iconBg: "#333333",
+    date: "2005 - 2007",
+    description: `
+    Line 1 of the description.
+    Line 2 of the description.
+    Line 3 of the description.
+  `,
+  },
+  {
+    title: "Network Support / IT Trainer",
+    company_name: "MTU Maintenance Canada Ltd",
+    icon: mtu,
     iconBg: "#333333",
     date: "2005 - 2007",
     description: `
@@ -442,6 +455,11 @@ const stackList = {
     {
       img: postman,
       name: "Postman REST API",
+    },
+
+    {
+      img: serverless,
+      name: "Serverless  Logic&Function Apps",
     },
   ],
   certs: [

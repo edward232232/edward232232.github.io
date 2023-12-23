@@ -28,7 +28,8 @@ import servicebus from './icons/service-bus.png';
 import eventhub from './icons/event-hubs.png';
 import postman from './icons/postman.png';
 import kusto from './icons/kusto.png';
-import datadog from './icons/DDOG.png'
+import datadog from './icons/DDOG.png';
+import serverless from './icons/serverless.png'
 
 import css from './tech/css.png';
 import docker from './tech/docker.png';
@@ -125,4 +126,5 @@ export {
   troutman,
   northplains,
   datadog,
+  serverless
 };

@@ -10,19 +10,21 @@ const About = () => {
   return (
     <div className="-mt-[6rem]">
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
+        <p className={`${styles.sectionSubText} text-white`}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px] mb-20"
+        className="mt-4 text-white text-[18px] max-w-3xl leading-[30px] mb-20"
       >
         Dedicated professional with over 15 years of experience in Applications,
         DevOps/ Cloud, seeking opportunities in software engineering or DevOps
-        support roles. Proficient in troubleshooting, automation, and cloud
-        technologies. Passionate about continuous learning new technologies and
-        contributing to innovative solutions.
+        support roles. <br />
+        <br />
+        Proficient in troubleshooting, automation, and cloud technologies.
+        Passionate about continuous learning new technologies and contributing
+        to innovative solutions.
       </motion.p>
 
       <motion.div variants={textVariant()}>

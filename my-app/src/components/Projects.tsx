@@ -39,7 +39,7 @@ const Projects = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px] mb-20"
+        className="mt-4 text-white text-[18px] max-w-3xl leading-[30px] mb-20"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
         sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea

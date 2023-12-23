@@ -8,7 +8,8 @@ import Type from "./Type";
 const Profile = () => {
   return (
     <>
-      <section className="relative flex flex-col w-full h-[95vh] mx-auto overflow-hidden sm:flex-row bg-gradient-to-b from-[#C274E9] via-[#D6A4EB] to-[#ace0f9]">
+      bg-gradient-to-b from-green-300 via-blue-500 to-purple-600
+      <section className="relative flex flex-col w-full h-[95vh] mx-auto overflow-hidden sm:flex-row ">
         {" "}
         <div
           className={`absolute inset-0 sm:top-[250px] top-[150px] 
@@ -56,7 +57,7 @@ const Profile = () => {
           >
             <div
               className="w-[35px] h-[64px] rounded-3xl border-4 
-      border-french flex
+      border-gray-300 flex
       justify-center items-center p-2"
             >
               <motion.div
