@@ -39,7 +39,7 @@ import {
   postman,
   kusto,
   datadog,
-  serverless, 
+  serverless,
 } from "../assets";
 
 export const navLinks = [
@@ -145,10 +145,10 @@ const experiences = [
     iconBg: "#333333",
     date: "2022 - Present",
     description: `
-    As a Developer Azure Service Support Engineer at Microsoft, 
-    I specialize in  troubleshooting cloud services, debugging, and providing training on our SDK, 
-    contributing significantly to exceptional customer satisfaction and recognized through multiple awards.
-  `,
+  
+    Entrusted with supporting the highest-profile Azure clients, specializing in troubleshooting cloud services, debugging, and providing SDK training, 
+    while also offering dedicated support to software & system engineers from our clients. 
+    This comprehensive assistance contributes significantly to exceptional customer satisfaction and has been recognized through multiple awards.  `,
   },
   {
     title: "Service Operations Analyst",
@@ -169,11 +169,10 @@ const experiences = [
     iconBg: "#333333",
     date: "2011 - 2019",
     description: `
-
     Gained esteem for outstanding problem-solving and incident management;
-     provided Tier 2-3 Application support and Cloud administration in AWS, 
-      developed UI customizations, orchestrated AWS resources, collaborated across global teams, 
-      integrated C# ASP.NET applications with Salesforce API, and ensured rigorous testing across diverse databases within a DevOps framework.
+    provided Tier 2-3 Application support and Cloud administration in AWS, 
+    developed UI customizations, orchestrated AWS resources, collaborated across global teams, 
+    integrated C# ASP.NET applications with Salesforce API
   `,
   },
   {
@@ -183,9 +182,9 @@ const experiences = [
     iconBg: "#333333",
     date: "2008 - 2010",
     description: `
-    Line 1 of the description.
-    Line 2 of the description.
-    Line 3 of the description.
+    Promoted to Application Analyst lead in 8 months for adeptly supporting in-house applications and servers, 
+    collaborating with US IT, creating VBA solutions for office efficiency,
+    establishing Helpdesk processes, and crafting technical documentation.
   `,
   },
 
@@ -196,9 +195,9 @@ const experiences = [
     iconBg: "#333333",
     date: "2005 - 2007",
     description: `
-    Line 1 of the description.
-    Line 2 of the description.
-    Line 3 of the description.
+    Supported 400 internal users across 5 offices as a Level 1-2 User Support Analyst,
+     excelling in root cause analysis, meeting SLA standards, organizing CITRIX training, managing software distributions, 
+     and providing remote support via phone, email, and desktop, garnering excellent performance reviews from managers.
   `,
   },
   {
@@ -208,9 +207,9 @@ const experiences = [
     iconBg: "#333333",
     date: "2005 - 2007",
     description: `
-    Line 1 of the description.
-    Line 2 of the description.
-    Line 3 of the description.
+    Received CFO recognition at MTU for outstanding performance, offering network and user support to 300 users and 15 servers,
+    conducting classroom training for internal users, participating in an Active Directory migration (NT4.0-Win2000), 
+    and updating the company's intranet through HTML/CSS using Dreamweaver MX/FrontPage 2000
   `,
   },
 ];
@@ -438,7 +437,7 @@ const stackList = {
       img: datadog,
       name: "Datadog",
     },
-    
+
     {
       img: servicebus,
       name: "Azure Service Bus",
