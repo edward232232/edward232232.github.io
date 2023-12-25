@@ -6,11 +6,12 @@ import About from "./components/About/About";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Skills from "./components/Skills";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative z-0 bg-gradient-to-b from-blue-900 via-gray-600 to-purple-1000">
+      <div className="relative z-0 bg-gradient-to-b from-indigo-400 via-gray-600 to-purple-900">
         <div>
           <NavigationBarComponent />
           <Profile />
@@ -27,7 +28,7 @@ const App = () => {
           
         </div>
         <Projects />
-        <div className="relative z-0">{/* <Contact /> */}</div>
+        <div className="relative z-0"> <Contact /> </div>
       </div>
     </BrowserRouter>
   );
