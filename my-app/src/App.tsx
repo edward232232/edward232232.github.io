@@ -10,7 +10,7 @@ import Skills from "./components/Skills";
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative z-0 bg-gradient-to-b from-blue-500 via-green-100 to-purple-600">
+      <div className="relative z-0 bg-gradient-to-b from-blue-900 via-gray-600 to-purple-1000">
         <div>
           <NavigationBarComponent />
           <Profile />
@@ -22,9 +22,9 @@ const App = () => {
           <Skills />
         </div>
 
-        <div className="bg-gray-400 bg-center bg-no-repeat rounded-[200px] rounded-br-[200px] m-24">
+        <div className="bg-gray-400 bg-center bg-no-repeat rounded-[200px] rounded-br-[200px] m-40">
           <Experience />
-          §§§
+          
         </div>
         <Projects />
         <div className="relative z-0">{/* <Contact /> */}</div>
