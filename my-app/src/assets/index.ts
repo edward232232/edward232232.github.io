@@ -1,12 +1,8 @@
-import bwmap from './backgrounds/bw-map.jpeg';
-import nairobi from './backgrounds/nairobi.png';
-import whiteabstract from './backgrounds/white-abstract.png';
-import worldmap from './backgrounds/world-map.png';
+
 
 import logo from './logo/cartoon_me.jpeg';
 import logotext from './logo/logoMe.jpeg';
 
-import shaq from './personal/shaq.png';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -77,13 +73,8 @@ export {
   mcpd,
   aws,
   ai900,
-  bwmap,
-  nairobi,
-  whiteabstract,
-  worldmap,
   logo,
   logotext,
-  shaq,
   backend,
   ux,
   cloud,
