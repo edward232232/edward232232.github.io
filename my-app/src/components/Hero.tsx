@@ -36,7 +36,7 @@ const Profile = () => {
             </h1>
 
             <h1 className={styles.sectionHeadText}>
-              I'M <span style={styles.purpleText}>Eddie Kong</span> 
+            I'M <span style={{color: 'gray-900'}}>Eddie Kong</span> 
             </h1>
 
             <div className={styles.blueText}>
