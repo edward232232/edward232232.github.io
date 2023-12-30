@@ -1,19 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.3aab85cd.css",
-    "main.js": "/static/js/main.2e3fb5fd.js",
+    "main.js": "/static/js/main.515caac2.js",
     "static/js/787.d4aba7ab.chunk.js": "/static/js/787.d4aba7ab.chunk.js",
     "static/media/nyeusi.png": "/static/media/nyeusi.8172b58383c809e7eb7e.png",
     "static/media/movie-metro.png": "/static/media/movie-metro.d4c2cf0ff57c74ade54e.png",
-    "static/media/nairobi.png": "/static/media/nairobi.ac0394ec045edde92ab9.png",
     "static/media/komikult.png": "/static/media/komikult.6a1054420de7c5e7c602.png",
     "static/media/leaderboard.png": "/static/media/leaderboard.9826c7ca4c9f9a912e56.png",
-    "static/media/shaq.png": "/static/media/shaq.fede38a559c6d4f310d0.png",
     "static/media/space-hub.png": "/static/media/space-hub.f07fdc44c81a1ff8dacf.png",
     "static/media/math-magicians.png": "/static/media/math-magicians.e86207103c191e26733a.png",
-    "static/media/bw-map.jpeg": "/static/media/bw-map.9a72544ee56c3c1cf1ec.jpeg",
-    "static/media/white-abstract.png": "/static/media/white-abstract.81dfceb32cc78242923f.png",
-    "static/media/world-map.png": "/static/media/world-map.b6f2c25ebd3ccf8b22b1.png",
     "static/media/me3.jpeg": "/static/media/me3.964821dc51435bac2c49.jpeg",
     "static/media/overcame-outline.woff": "/static/media/overcame-outline.e4685dc83777a33af73c.woff",
     "static/media/overcame-bold.woff": "/static/media/overcame-bold.1cbb476d06fa64bc5ee2.woff",
@@ -41,11 +36,11 @@
     "static/media/github.png": "/static/media/github.ed1c06d925fff0b57e32.png",
     "index.html": "/index.html",
     "main.3aab85cd.css.map": "/static/css/main.3aab85cd.css.map",
-    "main.2e3fb5fd.js.map": "/static/js/main.2e3fb5fd.js.map",
+    "main.515caac2.js.map": "/static/js/main.515caac2.js.map",
     "787.d4aba7ab.chunk.js.map": "/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3aab85cd.css",
-    "static/js/main.2e3fb5fd.js"
+    "static/js/main.515caac2.js"
   ]
 }
