@@ -1,6 +1,6 @@
 import { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
-import emailjs from '@emailjs/browser';
+import emailjs from 'emailjs-com';
 import { styles } from '../styles/styles';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';

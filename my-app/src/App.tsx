@@ -11,7 +11,7 @@ import Contact from "./components/Contact";
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative z-0 bg-gradient-to-b from-purple-900 to-black-900">
+      <div className="relative z-0 bg-gradient-to-b from-purple-800 to-black-900">
         <div>
           <NavigationBarComponent />
           <Profile />
