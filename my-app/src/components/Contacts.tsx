@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles/styles";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-
+import DeskWithMe from "../assets/personal/me3.jpeg";
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -22,6 +22,14 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadTextLight}>Contact.</h3>
         <div className="flex justify-center items-center space-x-16 mt-10">
+          <div className="flex justify-center items-center">
+            <img
+              className="h-[30vh] shadow-2xl rounded-full border-gray border-8"
+              src={DeskWithMe}
+              alt="DeskWithMe"
+            />
+          </div>
+
           <a
             href="https://www.linkedin.com/in/eddie-k-7a88514b/"
             className="Linkedin profile"

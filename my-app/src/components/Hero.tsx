@@ -3,14 +3,18 @@ import { motion } from "framer-motion";
 import { styles } from "../styles/styles";
 // import { navLinks } from "../constants";
 import DeskWithMe from "../assets/personal/me3.jpeg";
+import me4 from "../assets/personal/me4.jpeg";
 import Type from "./Type";
 import styled, { keyframes } from "styled-components";
 import { swing } from "react-animations";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const ShakeAnimation = keyframes`${swing}`;
 const ShakingDiv = styled.div`
-display: inline-block;
+  display: inline-block;
   animation: 3s ${ShakeAnimation} infinite;
   transform-origin: 10% 900;
 `;
@@ -18,7 +22,6 @@ display: inline-block;
 const Profile = () => {
   return (
     <>
-      bg-gradient-to-b from-green-300 via-blue-500 to-purple-600
       <section className="relative flex flex-col w-full h-[95vh] mx-auto overflow-hidden sm:flex-row ">
         {" "}
         <div
@@ -34,10 +37,10 @@ const Profile = () => {
 
           <div className={styles.typeStyle}>
             <h1 className={styles.sectionHeadText}>
-              Hi There! {" "}
+              Hi There!{" "}
               <ShakingDiv>
                 <span role="img" aria-labelledby="wave" title="Wave">
-               👋🏻
+                  👋🏻
                 </span>
               </ShakingDiv>
             </h1>
@@ -49,16 +52,7 @@ const Profile = () => {
             <div className={styles.blueText}>
               <Type />
             </div>
-
-            
           </div>
-
-          <div
-            className="w-screen flex flex-col items-start 
-            justify-center sm:-ml-[3rem] xxs:mt-4"
-          ></div>
-
-          <div></div>
         </div>
         <div className="absolute flex items-center justify-center w-full xs:bottom-10 bottom-28">
           <a
@@ -66,8 +60,8 @@ const Profile = () => {
             className="flex flex-col items-center justify-center"
           >
             <div
-              className="w-[35px] h-[64px] rounded-3xl border-4 
-      border-gray-300 flex
+              className="w-[50px] h-[80px] rounded-3xl border-4 
+      border-gray-100 flex
       justify-center items-center p-2"
             >
               <motion.div
@@ -85,7 +79,7 @@ const Profile = () => {
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="gray"
-                  className="w-5 h-5"
+                  className="w-10 h-10"
                 >
                   <path
                     strokeLinecap="round"
@@ -96,17 +90,16 @@ const Profile = () => {
                 </svg>
               </motion.div>
             </div>
-            <p className="text-sm text-center text-gray-500">
+            <p className="text-lg text-center text-gray-400">
               Scroll down to see more
             </p>
           </a>
         </div>
-        {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
         <div>
           <img
             className="absolute bottom-[20vh] right-[10vw] h-[50vh] shadow-2xl rounded-full border-gray border-8"
-            src={DeskWithMe}
-            alt="DeskWithMe"
+            src={me4}
+            alt="me4"
           />
         </div>
       </section>
