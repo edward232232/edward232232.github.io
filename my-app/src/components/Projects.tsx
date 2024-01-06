@@ -34,7 +34,8 @@ const Projects = () => {
   return (
     <div className="-mt-[6rem]">
       <motion.div variants={textVariant()}>
-        <h2 className={styles.sectionHeadText}>Projects.</h2>
+  
+        <h2 className={styles.sectionHeadTextLight}>Projects.</h2>
       </motion.div>
 
       <motion.p

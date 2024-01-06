@@ -65,11 +65,12 @@ const ExperienceCard = ({ experience }: { experience: Experience }) => (
 const ExperienceComponent = () => {
   return (
     <>
+    
+        <h2 className={styles.sectionHeadTextLight}>Professional Experience.</h2>
+        
       <motion.div variants={textVariant()} transition={{ duration: 1 }}>
    
-        <h2 className={`${styles.sectionHeadText} sm:pl-16 pl-[2rem]`}>
-          Work Experience.
-        </h2>
+       
       </motion.div>
 
       <div className="flex flex-col mt-20">

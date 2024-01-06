@@ -49,13 +49,6 @@ import microsoft from './company/microsoft.png';
 import northplains from './company/northplains.png'
 import troutman from './company/troutman.png'
 
-import komikult from './projects/komikult.png';
-import leaderboard from './projects/leaderboard.png';
-import math from './projects/math-magicians.png';
-import movie from './projects/movie-metro.png';
-import nyeusi from './projects/nyeusi.png';
-import space from './projects/space-hub.png';
-
 import ai900 from './certs/ai900.png'
 import az900 from './certs/az900.png'
 import mcp from './certs/MCP.jpg'
@@ -104,12 +97,7 @@ export {
   redux,
   tailwind,
   typescript,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
+
   autotrader,
   kinaxis,
   mtu,

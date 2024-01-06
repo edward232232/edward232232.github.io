@@ -6,12 +6,12 @@ import About from "./components/About/About";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Skills from "./components/Skills";
-import Contact from "./components/Contact";
+import Contacts from "./components/Contacts";
 
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative z-0 bg-gradient-to-b from-purple-800 to-black-900">
+      <div className="relative z-0 bg-gradient-to-b from-slate-700 to-black-800">
         <div>
           <NavigationBarComponent />
           <Profile />
@@ -28,7 +28,11 @@ const App = () => {
           
         </div>
         <Projects />
-        <div className="relative z-0"> <Contact /> </div>
+        <div className="relative z-0"> 
+        {/* <Contact />  */}
+        {/* <Social/> */}
+        <Contacts/>
+        </div>
       </div>
     </BrowserRouter>
   );
