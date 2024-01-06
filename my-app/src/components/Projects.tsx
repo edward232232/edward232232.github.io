@@ -42,12 +42,7 @@ const Projects = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-white text-[18px] max-w-3xl leading-[30px] mb-20"
       >
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+      A compilation of my repositories demonstrating my proficient use of technical skills
       </motion.p>
 
       <div className="flex flex-wrap gap-10 mt-10">

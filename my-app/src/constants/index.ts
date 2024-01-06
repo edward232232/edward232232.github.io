@@ -59,21 +59,21 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Frontend Development Project",
+    title: "Frontend Development Projects",
     icon: frontend,
     url: "https://github.com/edward232232/dev-portfolio",
     color: "blue-text-gradient",
   },
   {
-    title: "Backend Development Project",
+    title: "Backend Development Projects",
     icon: backend,
   },
   {
-    title: "Cloud /Devops Project",
+    title: "Cloud /Devops Projects",
     icon: cloud,
   },
   {
-    title: "AI Project",
+    title: "AI Projects",
     icon: prototyping,
   },
 ];
@@ -371,20 +371,6 @@ const stackList = {
     },
   ],
 
-  social: [
-    {
-        "network" : "linkedin",
-        "href": "https://linkedin.com/"
-    },
-    {
-        "network" : "github",
-        "href": "https://github.com/mayankagarwal09"
-    },
-    {
-        "network" : "email",
-        "href": "mailto:test@test.com"
-    }
-  ]
 };
 
 

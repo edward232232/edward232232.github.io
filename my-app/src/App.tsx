@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-import NavigationBarComponent from "./components/NavigationBarComponent";
+import NavBar from "./components/NavBar";
 import Profile from "./components/Hero";
 import About from "./components/About/About";
 
@@ -11,9 +11,9 @@ import Contacts from "./components/Contacts";
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative z-0 bg-gradient-to-b from-slate-700 to-black-800">
+      <div className="relative z-0 bg-gradient-to-b from-slate-600 to-black-800">
         <div>
-          <NavigationBarComponent />
+          <NavBar />
           <Profile />
         </div>
 

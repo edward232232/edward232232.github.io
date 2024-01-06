@@ -16,11 +16,9 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-black text-[18px] max-w-3xl leading-[30px] mb-20"
+        className="mt-4 text-white text-[18px] max-w-3xl leading-[30px] mb-20"
       >
-        Dedicated professional with over 15 years of experience in Applications,
-        DevOps/ Cloud, seeking opportunities in software engineering or DevOps
-        support roles. <br />
+        Dedicated professional with over 15 years of experiencemaintaining/supporting Application and Cloud-Based Solutions. <br />
         <br />
         Proficient in troubleshooting, automation, and cloud technologies.
         Passionate about continuous learning new technologies and contributing
@@ -28,7 +26,7 @@ const About = () => {
       </motion.p>
 
       <motion.div variants={textVariant()}>
-        <h2 className={`${styles.sectionHeadText} text-center`}>
+        <h2 className={styles.sectionSubTextLight}>
           Certifications:
         </h2>
       </motion.div>
