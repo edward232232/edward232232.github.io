@@ -12,7 +12,7 @@ const ShakeAnimation = keyframes`${swing}`;
 const ShakingDiv = styled.div`
 display: inline-block;
   animation: 3s ${ShakeAnimation} infinite;
-  transform-origin: 5% 0;
+  transform-origin: 10% 900;
 `;
 
 const Profile = () => {
