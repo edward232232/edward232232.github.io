@@ -6,6 +6,7 @@ import DeskWithMe from "../assets/personal/me3.jpeg";
 import Type from "./Type";
 import styled, { keyframes } from "styled-components";
 import { swing } from "react-animations";
+import Contacts from "./Contacts";
 
 const ShakeAnimation = keyframes`${swing}`;
 const ShakingDiv = styled.div`
@@ -48,6 +49,7 @@ const Profile = () => {
               <Type />
             </div>
           </div>
+
           <div
             className="w-screen flex flex-col items-start 
             justify-center sm:-ml-[3rem] xxs:mt-4"

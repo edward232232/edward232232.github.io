@@ -12,7 +12,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 const Contact = () => {
   return (
     <div
-    className="-mt-[8rem] xl:flex-row flex-col-reverse 
+      className="-mt-[8rem] xl:flex-row flex-col-reverse 
     flex gap-10 overflow-hidden justify-center items-center min-h-screen"
     >
       <motion.div
@@ -34,13 +34,13 @@ const Contact = () => {
           <a href="mailto:kong.eddie.com" className="email social">
             <div className="flex flex-col items-center">
               <FontAwesomeIcon icon={faEnvelope} size="3x" />
-              <span>Email</span> 
+              <span>Email</span>
             </div>
           </a>
           <a href="https://github.com/edward232232" className="facebook social">
             <div className="flex flex-col items-center">
               <FontAwesomeIcon icon={faGithub} size="3x" />
-              <span>GitHub</span> 
+              <span>GitHub</span>
             </div>
           </a>
         </div>
