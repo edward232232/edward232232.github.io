@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.80e5e5d4.css",
-    "main.js": "/static/js/main.f872e164.js",
+    "main.css": "/static/css/main.0cfbad27.css",
+    "main.js": "/static/js/main.e5a7bc93.js",
     "static/js/787.d4aba7ab.chunk.js": "/static/js/787.d4aba7ab.chunk.js",
     "static/media/me3.jpeg": "/static/media/me3.9398a4ff43e745834a14.jpeg",
+    "static/media/me4.jpeg": "/static/media/me4.964821dc51435bac2c49.jpeg",
     "static/media/overcame-outline.woff": "/static/media/overcame-outline.e4685dc83777a33af73c.woff",
     "static/media/overcame-bold.woff": "/static/media/overcame-bold.1cbb476d06fa64bc5ee2.woff",
     "static/media/cartoon_me.jpeg": "/static/media/cartoon_me.7dc59d789de4380e6dc2.jpeg",
@@ -29,12 +30,12 @@
     "static/media/ai.png": "/static/media/ai.35a77a9bb9588f5340c5.png",
     "static/media/github.png": "/static/media/github.ed1c06d925fff0b57e32.png",
     "index.html": "/index.html",
-    "main.80e5e5d4.css.map": "/static/css/main.80e5e5d4.css.map",
-    "main.f872e164.js.map": "/static/js/main.f872e164.js.map",
+    "main.0cfbad27.css.map": "/static/css/main.0cfbad27.css.map",
+    "main.e5a7bc93.js.map": "/static/js/main.e5a7bc93.js.map",
     "787.d4aba7ab.chunk.js.map": "/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.80e5e5d4.css",
-    "static/js/main.f872e164.js"
+    "static/css/main.0cfbad27.css",
+    "static/js/main.e5a7bc93.js"
   ]
 }
