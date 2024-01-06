@@ -1,4 +1,4 @@
-# Project Title: My React and TypeScript Showcase
+# Project Title: My React / TypeScript portfolio 
 
 This project is a comprehensive showcase of my skills in React, TypeScript, CSS, and HTML. It is a demonstration of my proficiency in these technologies, with a focus on best practices and efficient use of features.
 
