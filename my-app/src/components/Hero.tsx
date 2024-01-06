@@ -6,10 +6,11 @@ import DeskWithMe from "../assets/personal/me3.jpeg";
 import Type from "./Type";
 import styled, { keyframes } from "styled-components";
 import { swing } from "react-animations";
-import Contacts from "./Contacts";
+
 
 const ShakeAnimation = keyframes`${swing}`;
 const ShakingDiv = styled.div`
+display: inline-block;
   animation: 3s ${ShakeAnimation} infinite;
   transform-origin: 5% 0;
 `;
@@ -33,10 +34,10 @@ const Profile = () => {
 
           <div className={styles.typeStyle}>
             <h1 className={styles.sectionHeadText}>
-              Hi There!{" "}
+              Hi There! {" "}
               <ShakingDiv>
                 <span role="img" aria-labelledby="wave" title="Wave">
-                  👋🏻
+               👋🏻
                 </span>
               </ShakingDiv>
             </h1>
@@ -48,6 +49,8 @@ const Profile = () => {
             <div className={styles.blueText}>
               <Type />
             </div>
+
+            
           </div>
 
           <div
