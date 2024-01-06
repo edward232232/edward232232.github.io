@@ -13,6 +13,10 @@ https://edward232232.github.io/
 
 In the project directory, you can run:
 
+### `npm install`
+
+Before you can run or build the application, you need to install its dependencies. Run this command in the project directory to install all the dependencies defined in the `package.json` file. This command only needs to be run once, or whenever the dependencies are updated.
+
 ### `npm start`
 
 This command runs the application in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits and you will also see any lint errors in the console.
