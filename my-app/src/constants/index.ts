@@ -61,7 +61,7 @@ const services = [
   {
     title: "Frontend Development Projects",
     icon: frontend,
-    url: "https://github.com/edward232232/dev-portfolio",
+    url: "https://github.com/edward232232/Frontend",
     color: "blue-text-gradient",
   },
   {
