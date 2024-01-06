@@ -6,6 +6,9 @@ This project is a comprehensive showcase of my skills in React, TypeScript, CSS,
 
 This project is a web application built using React and TypeScript. It demonstrates my ability to create dynamic and interactive user interfaces using modern JavaScript frameworks and libraries. The application is styled using CSS, showcasing my understanding of layout design and responsive styling. The structure of the application is defined using HTML, demonstrating my ability to create well-structured and semantically meaningful web pages.
 
+## LIVE SITE
+https://edward232232.github.io/
+
 ## Available Scripts
 
 In the project directory, you can run:
