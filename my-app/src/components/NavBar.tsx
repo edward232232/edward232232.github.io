@@ -2,7 +2,7 @@ import React, { useState } from "react";
 // import { Link } from "react-router-dom";
 import { styles } from "../styles/styles";
 import { navLinks } from "../constants";
-import { close, menu } from "../assets";
+
 
 const NavBar = () => {
   const [active, setActive] = useState("");
@@ -10,7 +10,7 @@ const NavBar = () => {
   return (
     <nav
       className={`${styles.paddingX} w-full flex-col items-center py-2 fixed 
-      top-0 z-20 bg-sky-100 xxs:h-[12vh] justify-center`}
+      top-0 z-20 bg-sky-200 xxs:h-[12vh] justify-center`}
     >
       <div className="flex items-center justify-center w-full">
         <ul className="flex-row justify-center hidden mt-2 list-none sm:flex gap-14">

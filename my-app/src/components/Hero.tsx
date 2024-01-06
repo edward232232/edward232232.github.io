@@ -4,6 +4,14 @@ import { styles } from "../styles/styles";
 // import { navLinks } from "../constants";
 import DeskWithMe from "../assets/personal/me3.jpeg";
 import Type from "./Type";
+import styled, { keyframes } from "styled-components";
+import { swing } from "react-animations";
+
+const ShakeAnimation = keyframes`${swing}`;
+const ShakingDiv = styled.div`
+  animation: 3s ${ShakeAnimation} infinite;
+  transform-origin: 5% 0;
+`;
 
 const Profile = () => {
   return (
@@ -25,18 +33,15 @@ const Profile = () => {
           <div className={styles.typeStyle}>
             <h1 className={styles.sectionHeadText}>
               Hi There!{" "}
-              <span
-                role="img"
-                aria-labelledby="wave"
-                title="Wave"
-                className={styles.waveEmoji2}
-              >
-                👋🏻
-              </span>
+              <ShakingDiv>
+                <span role="img" aria-labelledby="wave" title="Wave">
+                  👋🏻
+                </span>
+              </ShakingDiv>
             </h1>
 
             <h1 className={styles.sectionHeadText}>
-            I'M <span style={{color: 'gray-900'}}>Eddie Kong</span> 
+              I'M <span style={{ color: "blue" }}>Eddie Kong</span>
             </h1>
 
             <div className={styles.blueText}>

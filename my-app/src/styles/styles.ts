@@ -35,22 +35,14 @@ const styles = {
 
   strongStyle: "color: purple",
 
-  blueText: "text-blue-700 mt-2 font-bold text-3xl w-[1200px]",
+  blueText: "text-purple-900 mt-2 font-extrabold text-3xl w-[1200px]",
 
   purpleText: {
     color: "purple",
   },
 
-  waveEmoji: {
-    animation: "wave 1s infinite",
-    "@keyframes wave": {
-      "0%, 100%": { transform: "translateY(0)" },
-      "50%": { transform: "translateY(-10px)" },
-    },
-  },
-
-  waveEmoji2:
-    "animation: wave 1s infinite; @keyframes wave { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }",
+ 
+ 
 };
 
 export { styles };
