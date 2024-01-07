@@ -2,15 +2,12 @@ import { motion } from "framer-motion";
 // import { Link } from "react-router-dom";
 import { styles } from "../styles/styles";
 // import { navLinks } from "../constants";
-import DeskWithMe from "../assets/personal/me3.jpeg";
-import me4 from "../assets/personal/me4.jpeg";
+
+import me4 from "../assets/personal/linkedin_me.png";
 import Type from "./Type";
 import styled, { keyframes } from "styled-components";
 import { swing } from "react-animations";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const ShakeAnimation = keyframes`${swing}`;
 const ShakingDiv = styled.div`
@@ -96,11 +93,11 @@ const Profile = () => {
           </a>
         </div>
         <div>
-          <img
-            className="absolute bottom-[20vh] right-[10vw] h-[50vh] shadow-2xl rounded-full border-gray border-8"
-            src={me4}
-            alt="me4"
-          />
+        <img
+  className="absolute bottom-[10vh] right-[5vw] h-[70vh] shadow-2xl rounded-full border-gray border-4 object-cover"
+  src={me4}
+  alt="me4"
+/>
         </div>
       </section>
     </>
