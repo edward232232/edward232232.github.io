@@ -9,10 +9,10 @@ const NavBar = () => {
 
   return (
     <nav
-      className={`${styles.paddingX} w-full flex-col items-center py-2 fixed 
-      top-0 z-20 bg-sky-600 xxs:h-[12vh] justify-center`}
+    className={`${styles.paddingX} w-full flex-col items-center py-2 fixed 
+    top-0 z-20 bg-sky-600 xxs:h-[12vh] justify-center sm:flex sm:justify-between`}
     >
-      <div className="flex items-center justify-center w-full">
+       <div className="flex items-center justify-center w-full sm:w-auto">
         <ul className="flex-row justify-center hidden mt-2 list-none sm:flex gap-14">
           {navLinks.map((nav) => (
             <li

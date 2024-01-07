@@ -28,7 +28,7 @@ const Technologies: React.FC<TechnologiesProps> = ({
  
 
     <motion.div variants={fadeIn("right", "spring", .5, 2)}>
-      <div className="flex flex-wrap gap-20 mt-10 justify-center">
+    <div className="flex flex-wrap gap-4 sm:gap-8 md:gap-20 mt-10 justify-center">
         {stackList?.certs?.map((stack: Stack, index: number) => (
           <Tech className="tech">
             <TechImg

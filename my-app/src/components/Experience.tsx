@@ -45,20 +45,9 @@ const ExperienceCard = ({ experience }: { experience: Experience }) => (
       </div>
     }
   >
-    <div>
-      <h3 className="text-jetLight text-[24px] font-bold font-beckman tracking-[2px]">
-        {experience.title}
-      </h3>
-      <p
-        className="text-taupe text-[22px] font-semibold font-overcameBold tracking-[1px]"
-        style={{ margin: 0 }}
-      >
-        {experience.company_name}
-        <p style={{ fontFamily: 'Arial, sans-serif' }}>
-      {experience.description}
-    </p>
-      </p>
-    </div>
+ <h3 className="vertical-timeline-element-title text-sm sm:text-base md:text-lg">{experience.title}</h3>
+    <h4 className="vertical-timeline-element-subtitle text-sm sm:text-base md:text-lg">{experience.company_name}</h4>
+    <p className="text-xs sm:text-sm md:text-base">{experience.description}</p>
   </VerticalTimelineElement>
 );
 

@@ -12,16 +12,15 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 const Contact = () => {
   return (
     <div
-      className="-mt-[8rem] xl:flex-row flex-col-reverse 
-    flex gap-10 overflow-hidden justify-center items-center min-h-screen"
-    >
+    className="-mt-[8rem] flex flex-col-reverse md:flex-row gap-10 overflow-hidden justify-center items-center min-h-screen"
+  >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-jet p-8 rounded-2xl"
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadTextLight}>Contact.</h3>
-        <div className="flex justify-center items-center space-x-16 mt-10">
+        <div className="flex justify-center items-center space-x-16 mt-10 ">
           <div className="flex justify-center items-center">
             <img
               className="h-[30vh] shadow-2xl rounded-full border-gray border-8"
