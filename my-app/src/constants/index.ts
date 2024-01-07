@@ -11,12 +11,6 @@ import {
   redux,
   tailwind,
   nodejs,
-  git,
-  figma,
-  docker,
-  postgresql,
-  rubyrails,
-  graphql,
   troutman,
   kinaxis,
   northplains,
@@ -30,7 +24,7 @@ import {
   mcpd,
   aisearch,
   servicebus,
-  eventhub,
+
   postman,
   kusto,
   datadog,
@@ -111,30 +105,8 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "Rails",
-    icon: rubyrails,
-  },
-  {
-    name: "graphql",
-    icon: graphql,
-  },
-  {
-    name: "postgresql",
-    icon: postgresql,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+
+
 ];
 
 const experiences = [
@@ -327,12 +299,9 @@ const stackList = {
 
     {
       img: servicebus,
-      name: "Azure Service Bus",
+      name: "Azure Service Bus /Event Hubs",
     },
-    {
-      img: eventhub,
-      name: "Azure Event Hubs",
-    },
+ 
     {
       img: aisearch,
       name: "Azure AI Search",
@@ -345,7 +314,7 @@ const stackList = {
 
     {
       img: serverless,
-      name: "Serverless  Logic&Function Apps",
+      name: "Azure Serverless",
     },
   ],
   certs: [
