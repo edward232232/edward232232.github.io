@@ -11,27 +11,24 @@ import Contacts from "./components/Contacts";
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative z-0 bg-gradient-to-b from-slate-600 to-black-800">
-        <div>
+      <div className="relative z-0 bg-gradient-to-b from-slate-600 to-black-800 md:flex md:flex-col">
+        <div className="md:flex md:flex-col">
           <NavBar />
           <Profile />
         </div>
 
-        <div className="bg-center bg-no-repeat bg-cover">
+        <div className="bg-center bg-no-repeat bg-cover md:flex md:flex-col">
           <About />
 
           <Skills />
         </div>
 
-        <div className="bg-gray-400 bg-center bg-no-repeat rounded-[200px] rounded-br-[200px] m-40">
+        <div className="bg-gray-400 bg-center bg-no-repeat rounded-[200px] rounded-br-[200px] m-40 md:flex md:flex-col">
           <Experience />
-          
         </div>
         <Projects />
-        <div className="relative z-0"> 
-        {/* <Contact />  */}
-        {/* <Social/> */}
-        <Contacts/>
+        <div className="relative z-0 md:flex md:flex-col">
+          <Contacts />
         </div>
       </div>
     </BrowserRouter>
