@@ -35,7 +35,7 @@ const Tech = () => {
         stackList={{
           backend: stackList.backend,
         }}
-        styles={`${styles} sm:text-sm md:text-base lg:text-lg`}
+        styles={`${styles} flex flex-wrap`}
         textVariant={textVariant}
         fadeIn={fadeIn}
       />

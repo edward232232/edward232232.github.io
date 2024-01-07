@@ -20,19 +20,16 @@ interface Stack {
 
 const Technologies: React.FC<TechnologiesProps> = ({
   stackList,
-  styles,
-  textVariant,
+
   fadeIn,
 }) => (
   <div>
- 
-
-    <motion.div variants={fadeIn("right", "spring", .5, 2)}>
-    <div className="flex flex-wrap gap-4 sm:gap-8 md:gap-20 mt-10 justify-center">
+    <motion.div variants={fadeIn("right", "spring", 0.5, 2)}>
+      <div className="flex flex-wrap gap-4 sm:gap-8 md:gap-20 mt-10 justify-center">
         {stackList?.certs?.map((stack: Stack, index: number) => (
           <Tech className="tech">
             <TechImg
-              style={{ width: "100px", height: "100px" }}
+              style={{ maxWidth: "100%", height: "auto" }}
               src={stack.img}
               alt={stack.name}
             />
@@ -42,12 +39,16 @@ const Technologies: React.FC<TechnologiesProps> = ({
       </div>
     </motion.div>
 
-    <motion.div variants={fadeIn("left", "spring", .5, 2)}>
+    <motion.div variants={fadeIn("left", "spring", 0.5, 2)}>
       <div>
         <div className="flex">
           {stackList?.frontend?.map((stack: Stack, index: number) => (
             <Tech className="tech">
-              <TechImg src={stack.img} alt={stack.name} />
+              <TechImg
+                style={{ maxWidth: "100%", height: "auto" }}
+                src={stack.img}
+                alt={stack.name}
+              />
               <TechName>{stack.name}</TechName>
             </Tech>
           ))}
