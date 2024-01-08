@@ -71,6 +71,7 @@ const services = [
   },
   {
     title: "AI Projects",
+    url: "https://github.com/edward232232/AI-Projects",
     icon: prototyping,
   },
 ];
