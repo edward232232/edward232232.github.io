@@ -54,19 +54,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Frontend Development Projects",
+    title: "Frontend  Projects",
     icon: frontend,
     url: "https://github.com/edward232232/Frontend",
     color: "blue-text-gradient",
   },
   {
-    title: "Backend & FullStack Development Projects",
+    title: "Backend & FullStack  Projects",
     url: "https://github.com/edward232232/Backend-And-FullStack-Projects",
     icon: backend,
   },
   {
     title: "Cloud /Devops Projects",
-    url: "https://github.com/edward232232/Cloud-Devops-Projects",
+    url: "https://github.com/edward232232/DevOps-Cloud-Projects",
     icon: cloud,
   },
   {
