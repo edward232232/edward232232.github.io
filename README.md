@@ -7,6 +7,11 @@ This project is a web application built using React and TypeScript. It demonstra
 ## LIVE SITE
 https://edward232232.github.io/
 
+## Author
+
+**Eddie Kong**
+- LinkedIn: [Eddie Kong](https://www.linkedin.com/in/eddie-k-7a88514b/)
+
 ## Available Scripts
 
 In the project directory, you can run :

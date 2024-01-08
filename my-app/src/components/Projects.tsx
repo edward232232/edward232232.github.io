@@ -42,7 +42,7 @@ const Projects = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-white text-[18px] max-w-3xl leading-[30px] mb-20"
       >
-      A compilation of my repositories demonstrating my proficient use of technical skills
+     Some of my repositories showcasing my skill and understanding of the technologies used.
       </motion.p>
 
       <div className="flex flex-wrap gap-10 mt-10">

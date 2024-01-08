@@ -1,3 +1,4 @@
+import { url } from "inspector";
 import {
   frontend,
   backend,
@@ -59,11 +60,13 @@ const services = [
     color: "blue-text-gradient",
   },
   {
-    title: "Backend Development Projects",
+    title: "Backend & FullStack Development Projects",
+    url: "https://github.com/edward232232/Backend-And-FullStack-Projects",
     icon: backend,
   },
   {
     title: "Cloud /Devops Projects",
+    url: "https://github.com/edward232232/Cloud-Devops-Projects",
     icon: cloud,
   },
   {
