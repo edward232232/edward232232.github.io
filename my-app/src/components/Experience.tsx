@@ -25,17 +25,14 @@ const ExperienceCard = ({ experience }: { experience: Experience }) => (
       background: "#eaeaec",
       color: "#292929",
       boxShadow:
-      "rgba(0, 0, 0, 0.3) 0px 30px 40px -3px, rgba(0, 0, 0, 0.2) 0px 10px 15px -2px",
-            borderRadius: "30px",
-            border: "3px solid black",
-
+        "rgba(0, 0, 0, 0.3) 0px 30px 40px -3px, rgba(0, 0, 0, 0.2) 0px 10px 15px -2px",
+      borderRadius: "30px",
+      border: "3px solid black",
     }}
-
     contentArrowStyle={{
-      borderRight: '7px solid  #232631',
-     
+      borderRight: "7px solid  #232631",
     }}
-
+    date={experience.date}
     iconStyle={{ background: experience.iconBg }}
     icon={
       <div className="flex items-center justify-center w-full h-full">
@@ -47,33 +44,32 @@ const ExperienceCard = ({ experience }: { experience: Experience }) => (
       </div>
     }
   >
-       <div>
-      <h2>{experience.date} </h2>
+    <div>
       <h3 className="text-jetLight text-[24px] font-bold font-beckman tracking-[2px]">
         {experience.title}
       </h3>
       <p
         className="text-taupe text-[22px] font-semibold font-overcameBold tracking-[1px]"
-        style={{ margin: 0 }}>
-      {experience.company_name}
+        style={{ margin: 0 }}
+      >
+        {experience.company_name}
       </p>
-      <p className="text-xs sm:text-sm md:text-base">{experience.description}</p>
+      <p className="text-xs sm:text-sm md:text-base">
+        {experience.description}
+      </p>
     </div>
-
-
   </VerticalTimelineElement>
 );
 
 const ExperienceComponent = () => {
   return (
     <>
-    
-        <h2 className={styles.sectionHeadTextLight}>Professional Experience.</h2>
-        
-      <motion.div variants={textVariant()} transition={{ duration: 1 }}>
-   
-       
-      </motion.div>
+      <h2 className={styles.sectionHeadTextLight}>Professional Experience.</h2>
+
+      <motion.div
+        variants={textVariant()}
+        transition={{ duration: 1 }}
+      ></motion.div>
 
       <div className="flex flex-col mt-20">
         <VerticalTimeline className="vertical-timeline-custom-line">
