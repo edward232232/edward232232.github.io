@@ -4,7 +4,7 @@ import { SectionWrapper } from "../hoc";
 
 import { styles } from "../styles/styles";
 import { fadeIn, textVariant } from "../utils/motion";
-import Technologies from "./StackList";
+import StackList from "./StackList";
 import { stackList } from "../constants";
 
 const Tech = () => {
@@ -18,7 +18,7 @@ const Tech = () => {
       <motion.div variants={textVariant()}>
       <h2 className={`${styles.sectionSubText} mb-1`}>FrontEnd:</h2>
       </motion.div>
-      <Technologies
+      <StackList
       
         stackList={{
           frontend: stackList.frontend,
@@ -30,7 +30,7 @@ const Tech = () => {
        <motion.div variants={textVariant()}>
       <h2 className={`${styles.sectionSubText} mb-1`}>Backend:</h2>
       </motion.div>
-      <Technologies
+      <StackList
       
         stackList={{
           backend: stackList.backend,
@@ -43,7 +43,7 @@ const Tech = () => {
 <motion.div variants={textVariant()}>
       <h2 className={`${styles.sectionSubText} mb-1`}>DevOps/Cloud& Tools:</h2>
       </motion.div>
-      <Technologies
+      <StackList
       
         stackList={{
           infrastructure: stackList.infrastructure,

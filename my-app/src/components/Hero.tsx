@@ -93,7 +93,7 @@ const Profile = () => {
         </div>
         <div>
           <img
-            className="absolute bottom-[10vh] right-[5vw] h-[70vh] shadow-2xl rounded-full border-gray border-4 object-cover"
+            className="absolute bottom-[10vh] right-[5vw] h-[60vh] shadow-2xl rounded-full border-gray border-4 object-cover"
             src={me4}
             alt="me4"
           />

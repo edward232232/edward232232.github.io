@@ -25,7 +25,7 @@ const Technologies: React.FC<TechnologiesProps> = ({
 }) => (
   <div>
     <motion.div variants={fadeIn("right", "spring", 0.5, 2)}>
-      <div className="flex flex-wrap gap-4 sm:gap-8 md:gap-20 mt-10 justify-center">
+      <div style={{ display: "flex", flexWrap: "wrap" }}>
         {stackList?.certs?.map((stack: Stack, index: number) => (
           <Tech className="flex-wrap">
             <TechImg
@@ -41,22 +41,24 @@ const Technologies: React.FC<TechnologiesProps> = ({
 
     <motion.div variants={fadeIn("left", "spring", 0.5, 2)}>
       <div>
-        <div className="flex">
+        <div style={{ display: "flex", flexWrap: "wrap" }}>
           {stackList?.frontend?.map((stack: Stack, index: number) => (
-            <Tech className="flex-wrap">
-              <TechImg
-                style={{ maxWidth: "100%", height: "auto" }}
-                src={stack.img}
-                alt={stack.name}
-              />
-              <TechName>{stack.name}</TechName>
-            </Tech>
+            <div style={{ flex: "1 0 5%", margin: "5px" }}>
+              <Tech className="flex-wrap">
+                <TechImg
+                  style={{ maxWidth: "100%", height: "auto" }}
+                  src={stack.img}
+                  alt={stack.name}
+                />
+                <TechName>{stack.name}</TechName>
+              </Tech>
+            </div>
           ))}
         </div>
       </div>
 
       <div>
-        <div className="flex">
+        <div className="flex flex-wrap gap-4 sm:gap-8 md:gap-20 mt-10 justify-center">
           {stackList?.backend?.map((stack: Stack, index: number) => (
             <Tech className="tech">
               <TechImg src={stack.img} alt={stack.name} />
@@ -67,12 +69,18 @@ const Technologies: React.FC<TechnologiesProps> = ({
       </div>
 
       <div>
-        <div className="flex">
+      <div style={{ display: "flex", flexWrap: "wrap" }}>
           {stackList?.infrastructure?.map((stack: Stack, index: number) => (
-            <Tech className="tech">
-              <TechImg src={stack.img} alt={stack.name} />
-              <TechName>{stack.name}</TechName>
-            </Tech>
+            <div style={{ flex: "1 0 20%", margin: "5px" }}>
+              <Tech className="flex-wrap">
+                <TechImg
+                  style={{ maxWidth: "100%", height: "auto" }}
+                  src={stack.img}
+                  alt={stack.name}
+                />
+                <TechName>{stack.name}</TechName>
+              </Tech>
+            </div>
           ))}
         </div>
       </div>
