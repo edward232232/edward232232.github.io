@@ -25,17 +25,17 @@ const Technologies: React.FC<TechnologiesProps> = ({
 }) => (
   <div>
     <motion.div variants={fadeIn("right", "spring", 0.5, 2)}>
-      <div style={{ display: "flex", flexWrap: "wrap" }}>
+      <div className="flex flex-wrap gap-4 sm:gap-8 md:gap-20 mt-10 justify-center">
         {stackList?.certs?.map((stack: Stack, index: number) => (
-            <div style={{ flex: "1 0 5%", margin: "5px" }}>
-          <Tech className="flex-wrap">
-            <TechImg
-              style={{ maxWidth: "100%", height: "auto" }}
-              src={stack.img}
-              alt={stack.name}
-            />
-            <TechName>{stack.name}</TechName>
-          </Tech>
+          <div style={{ flex: "1 0 5%", margin: "5px" }}>
+            <Tech className="flex-wrap">
+              <TechImg
+                style={{ maxWidth: "100%", height: "auto" }}
+                src={stack.img}
+                alt={stack.name}
+              />
+              <TechName>{stack.name}</TechName>
+            </Tech>
           </div>
         ))}
       </div>
@@ -43,7 +43,7 @@ const Technologies: React.FC<TechnologiesProps> = ({
 
     <motion.div variants={fadeIn("left", "spring", 0.5, 2)}>
       <div>
-        <div style={{ display: "flex", flexWrap: "wrap" }}>
+        <div className="flex flex-wrap gap-4 sm:gap-8 md:gap-20 mt-10 justify-center">
           {stackList?.frontend?.map((stack: Stack, index: number) => (
             <div style={{ flex: "1 0 5%", margin: "5px" }}>
               <Tech className="flex-wrap">
