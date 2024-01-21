@@ -69,7 +69,7 @@ const Technologies: React.FC<TechnologiesProps> = ({
       </div>
 
       <div>
-      <div style={{ display: "flex", flexWrap: "wrap" }}>
+        <div style={{ display: "flex", flexWrap: "wrap" }}>
           {stackList?.infrastructure?.map((stack: Stack, index: number) => (
             <div style={{ flex: "1 0 20%", margin: "5px" }}>
               <Tech className="flex-wrap">

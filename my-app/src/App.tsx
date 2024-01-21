@@ -23,7 +23,7 @@ const App = () => {
           <Skills />
         </div>
 
-        <div className="bg-gray-400 bg-center bg-no-repeat rounded-[200px] rounded-br-[200px] m-20 md:flex md:flex-col">
+        <div className="bg-gray-400 bg-center bg-no-repeat rounded-[100px] rounded-br-[200px] m- md:flex md:flex-col">
           <Experience />
         </div>
         <Projects />
