@@ -2,6 +2,8 @@ import React, { useState } from "react";
 // import { Link } from "react-router-dom";
 import { styles } from "../styles/styles";
 import { navLinks } from "../constants";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 
 const NavBar = () => {
@@ -13,6 +15,7 @@ const NavBar = () => {
     top-0 z-20 bg-sky-600 xxs:h-[12vh] justify-center sm:flex sm:justify-between`}
     >
        <div className="flex items-center justify-center w-full sm:w-auto">
+       <FontAwesomeIcon icon={faBars} size="2x" className="absolute left-0 ml-4 mr-2" />
         <ul className="flex-row justify-center  mt-2 list-none sm:flex gap-14">
           {navLinks.map((nav) => (
             <li

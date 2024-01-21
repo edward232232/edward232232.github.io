@@ -22,8 +22,18 @@ const styles = {
   heroSubText:
     "text-eerieBlack font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]",
 
-  typeStyle:
-    "color: black; margin-top: 20px; font-weight: bold; font-size: 20px; width: 1000px;",
+    typeStyle: `
+    color: black; 
+    margin-top: 20px; 
+    font-weight: bold; 
+    font-size: 20px; 
+    width: 1000px; 
+    z-index: 1000;
+    @media (max-width: 640px) {
+      position: absolute;
+      bottom: 0;
+    }
+  `,
   sectionHeadText:
     "text-eerieBlack font-black md:text-[30px] sm:text-[20px] xs:text-[10px] text-[30px] font-poppins",
   sectionHeadTextLight:

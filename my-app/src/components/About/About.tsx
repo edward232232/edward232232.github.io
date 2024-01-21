@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { styles } from "../../styles/styles";
 import { fadeIn, textVariant } from "../../utils/motion";
 import { SectionWrapper } from "../../hoc";
-import Technologies from "../StackList";
+import Stacklist from "../StackList";
 import { stackList } from "../../constants";
 
 const About = () => {
@@ -18,7 +18,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-white text-[18px] max-w-3xl leading-[30px] mb-20"
       >
-        Dedicated professional with over 15 years of experiencemaintaining/supporting Application and Cloud-Based Solutions. <br />
+        Dedicated professional with over 15 years of
+        experiencemaintaining/supporting Application and Cloud-Based Solutions.{" "}
+        <br />
         <br />
         Proficient in troubleshooting, automation, and cloud technologies.
         Passionate about continuous learning new technologies and contributing
@@ -26,12 +28,10 @@ const About = () => {
       </motion.p>
 
       <motion.div variants={textVariant()}>
-        <h2 className={styles.sectionSubTextLight}>
-          Certifications:
-        </h2>
+        <h2 className={styles.sectionSubTextLight}>Certifications:</h2>
       </motion.div>
 
-      <Technologies
+      <Stacklist
         stackList={{ certs: stackList.certs }}
         styles={styles}
         textVariant={textVariant}

@@ -27,6 +27,7 @@ const Technologies: React.FC<TechnologiesProps> = ({
     <motion.div variants={fadeIn("right", "spring", 0.5, 2)}>
       <div style={{ display: "flex", flexWrap: "wrap" }}>
         {stackList?.certs?.map((stack: Stack, index: number) => (
+            <div style={{ flex: "1 0 5%", margin: "5px" }}>
           <Tech className="flex-wrap">
             <TechImg
               style={{ maxWidth: "100%", height: "auto" }}
@@ -35,6 +36,7 @@ const Technologies: React.FC<TechnologiesProps> = ({
             />
             <TechName>{stack.name}</TechName>
           </Tech>
+          </div>
         ))}
       </div>
     </motion.div>

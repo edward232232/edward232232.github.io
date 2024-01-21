@@ -26,11 +26,7 @@ const Profile = () => {
           max-w-7xl mx-auto flex flex-row items-start
           justify-between gap-3`}
         >
-          <div className="flex flex-col items-center justify-center mt-5 ml-3">
-            <div className="w-5 h-5 rounded-full bg-[#0a0a0a] sm:hidden" />
-            <div className="w-1 h-40 sm:h-80 bw-gradient sm:hidden" />
-          </div>
-
+    
           <div className={styles.typeStyle}>
             <h1 className={styles.sectionHeadText}>
               Hi There!{" "}
@@ -50,6 +46,7 @@ const Profile = () => {
             </div>
           </div>
         </div>
+        {/* scholl down */}
         <div className="absolute flex items-center justify-center w-full xs:bottom-10 bottom-28">
           <a
             href="#about"
@@ -93,7 +90,7 @@ const Profile = () => {
         </div>
         <div>
           <img
-            className="absolute bottom-[10vh] right-[5vw] h-[60vh] shadow-2xl rounded-full border-gray border-4 object-cover"
+            className="absolute bottom-[10vh] right-[5vw] h-[70vh] shadow-2xl rounded-full border-gray border-4 object-cover"
             src={me4}
             alt="me4"
           />
