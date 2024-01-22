@@ -42,9 +42,9 @@ const Profile = () => {
           </div>
         </div>
       </div>
-      <div className="absolute bottom-4 sm:flex items-center justify-center w-full">
-  <a href="#about" className="flex flex-col items-center justify-center">
-    <div className="w-[40px] h-[60px] rounded-3xl border-4 border-gray-100 flex justify-center items-center p-2">
+      <div className="absolute bottom-4 hidden sm:flex items-center justify-center w-full">
+        <a href="#about" className="flex flex-col items-center justify-center">
+          <div className="w-[40px] h-[60px] rounded-3xl border-4 border-gray-100 flex justify-center items-center p-2">
             <motion.div
               animate={{
                 y: [-4, 15, -4],
@@ -78,8 +78,8 @@ const Profile = () => {
       </div>
       <div>
         <img
-  className="absolute bottom-16 right-[5vw] h-[25vh] sm:h-[40vh] md:h-[60vh] shadow-2xl rounded-full border-gray border-4 object-cover"
-  src={me4}
+          className="absolute bottom-16 right-[5vw] h-[25vh] sm:h-[20vh] md:h-[60vh] shadow-2xl rounded-full border-gray border-4 object-cover"
+          src={me4}
           alt="me4"
         />
       </div>
