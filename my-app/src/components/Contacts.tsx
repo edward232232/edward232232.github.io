@@ -16,8 +16,10 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-jet p-8 rounded-2xl"
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadTextLight}>Contact.</h3>
+        <div className="flex flex-col items-center justify-center">
+          <p className={styles.sectionSubText}>Get in touch</p>
+          <h3 className={styles.sectionHeadTextLight}>Contact.</h3>
+        </div>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-x-8 mt-10">
           <a
             href="https://www.linkedin.com/in/eddie-k-7a88514b/"
