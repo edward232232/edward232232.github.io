@@ -42,10 +42,9 @@ const Profile = () => {
           </div>
         </div>
       </div>
-      <div className="hidden sm:flex items-center justify-center w-full xs:bottom-10 bottom-28">        <a href="#about" className="flex flex-col items-center justify-center">
-          <div
-            className="w-[40px] h-[60px] rounded-3xl border-4 
-            border-gray-100 flex justify-center items-center p-2">
+      <div className="absolute bottom-4 sm:flex items-center justify-center w-full">
+  <a href="#about" className="flex flex-col items-center justify-center">
+    <div className="w-[40px] h-[60px] rounded-3xl border-4 border-gray-100 flex justify-center items-center p-2">
             <motion.div
               animate={{
                 y: [-4, 15, -4],
