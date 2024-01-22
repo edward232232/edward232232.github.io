@@ -18,12 +18,12 @@ const Profile = () => {
   return (
     <section className="relative flex flex-col w-full h-[95vh] mx-auto overflow-hidden sm:flex-row ">
       <div
-        className={`absolute inset-0 sm:top-[250px] top-[150px] 
+        className={`absolute  top-[150px] 
         lg:top-[150px] xl:top-[250px] ${styles.paddingX} 
         max-w-7xl mx-auto flex flex-row items-start
-        justify-between gap-3`}
+        justify-between gap-5 `}
       >
-        <div className={styles.typeStyle}>
+        <div className={`${styles.typeStyle} mt-4`}>
           <h1 className={styles.sectionHeadText}>
             Hi There!{" "}
             <ShakingDiv>
@@ -42,13 +42,10 @@ const Profile = () => {
           </div>
         </div>
       </div>
-      <div className="absolute flex items-center justify-center w-full xs:bottom-10 bottom-28">
-        <a href="#about" className="flex flex-col items-center justify-center">
+      <div className="hidden sm:flex items-center justify-center w-full xs:bottom-10 bottom-28">        <a href="#about" className="flex flex-col items-center justify-center">
           <div
-            className="w-[50px] h-[80px] rounded-3xl border-4 
-    border-gray-100 flex
-    justify-center items-center p-2"
-          >
+            className="w-[40px] h-[60px] rounded-3xl border-4 
+            border-gray-100 flex justify-center items-center p-2">
             <motion.div
               animate={{
                 y: [-4, 15, -4],
@@ -64,7 +61,7 @@ const Profile = () => {
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="gray"
-                className="w-10 h-10"
+                className="w-5 h-5"
               >
                 <path
                   strokeLinecap="round"
@@ -82,8 +79,8 @@ const Profile = () => {
       </div>
       <div>
         <img
-          className="absolute bottom-[10vh] right-[5vw] h-[60vh] shadow-2xl rounded-full border-gray border-4 object-cover"
-          src={me4}
+  className="absolute bottom-16 right-[5vw] h-[25vh] sm:h-[40vh] md:h-[60vh] shadow-2xl rounded-full border-gray border-4 object-cover"
+  src={me4}
           alt="me4"
         />
       </div>
