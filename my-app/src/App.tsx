@@ -1,7 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Profile from "./components/Hero";
-import About from "./components/About/About";
+import About from "./components/About";
 
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
@@ -13,7 +13,7 @@ const App = () => {
     <BrowserRouter>
       <div className="relative z-0 w-full md:w-auto bg-gradient-to-b from-slate-600 to-black-800 md:flex md:flex-col">
         <div className="w-full md:w-auto md:flex md:flex-col">
-        <NavBar />
+          <NavBar />
           <Profile />
         </div>
 

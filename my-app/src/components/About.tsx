@@ -1,10 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { styles } from "../../styles/styles";
-import { fadeIn, textVariant } from "../../utils/motion";
-import { SectionWrapper } from "../../hoc";
-import Stacklist from "../StackList";
-import { stackList } from "../../constants";
+import { styles } from "../styles/styles";
+import { fadeIn, textVariant } from "../utils/motion";
+import { SectionWrapper } from "../hoc";
+import Stacklist from "./StackList";
+import { stackList } from "../constants";
 
 const About = () => {
   return (
