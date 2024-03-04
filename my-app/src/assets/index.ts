@@ -49,6 +49,7 @@ import microsoft from './company/microsoft.png';
 import northplains from './company/northplains.png'
 import troutman from './company/troutman.png'
 
+import ai102 from './certs/ai102.png'
 import ai900 from './certs/ai900.png'
 import az900 from './certs/az900.png'
 import mcp from './certs/MCP.jpg'
@@ -62,6 +63,7 @@ export {
   servicebus,
   aisearch,
   az900,
+  ai102,
   mcp,
   mcpd,
   aws,

@@ -42,7 +42,7 @@ const Profile = () => {
           </div>
         </div>
       </div>
-      <div className="absolute bottom-4 hidden sm:flex items-center justify-center w-full">
+      <div className="fixed bottom-4 hidden sm:flex items-center justify-center w-full">
         <a href="#about" className="flex flex-col items-center justify-center">
           <div className="w-[40px] h-[60px] rounded-3xl border-4 border-gray-100 flex justify-center items-center p-2">
             <motion.div

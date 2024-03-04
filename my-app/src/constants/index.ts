@@ -20,6 +20,7 @@ import {
   microsoft,
   az900,
   ai900,
+  ai102,
   aws,
   mcp,
   mcpd,
@@ -322,6 +323,10 @@ const stackList = {
     },
   ],
   certs: [
+    {
+      img: ai102,
+      name: "Azure AI Engineer Assoicate 2024",
+    },
     {
       img: ai900,
       name: "Microsoft Azure AI Fundamentals 2022",
