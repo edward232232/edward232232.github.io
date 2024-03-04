@@ -26,21 +26,21 @@ Before you can run or build the application, you need to install its dependencie
 
 ```bash
 cd my-app
-
-
+npm start
+```
 
 This command launches the test runner in the interactive watch mode. For more information, see the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests).
 
 ### `npm run build`
 
 This command builds the application for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes. Your application is now ready to be deployed!
+## Deploying to GitHub Pages
 
-### `npm run eject`
+To deploy the app to GitHub Pages, run the following command:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project and give you full control over the configuration files and transitive dependencies (webpack, Babel, ESLint, etc).
-
+```bash
+npm run deploy
+```
 
 ## Skills Demonstrated
 
